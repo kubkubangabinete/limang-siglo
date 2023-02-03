@@ -1,0 +1,41 @@
+{
+  "name": "limang-siglo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@egjs/flicking-plugins": "^4.4.0",
+    "@egjs/react-flicking": "^4.10.3",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/lab": "^5.0.0-alpha.106",
+    "@mui/material": "^5.10.12",
+    "dotenv": "^16.0.3",
+    "framer-motion": "^7.6.4",
+    "material-symbols": "^0.2.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-flippy": "^1.1.0",
+    "react-h5-audio-player": "^3.8.6",
+    "react-howler": "^5.2.0",
+    "react-outside-click-handler": "^1.3.0",
+    "react-router-dom": "^6.4.2",
+    "react-slick": "^0.29.0",
+    "rehowl": "^0.6.0",
+    "styled-components": "^5.3.6",
+    "use-sound": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "vite": "^3.1.0"
+  }
+}

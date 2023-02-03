@@ -1,0 +1,9 @@
+<svg id="Component_60_19" data-name="Component 60 – 19" xmlns="http://www.w3.org/2000/svg" width="72.94" height="72.463" viewBox="0 0 72.94 72.463">
+  <path id="Path_300" data-name="Path 300" d="M14958.175-807.642l-.338,6.333-31.5,17.818v-6.418Z" transform="translate(-14889.622 847.42)" fill="#e1dcd3"/>
+  <path id="Path_298" data-name="Path 298" d="M7.622,0,41.484,11.85l.275,44.66h0L5.62,45.732,1.367,49.839,36.067,60l-.138,1.073L0,50.611,1.714,5.705Z" transform="matrix(0.695, -0.719, 0.719, 0.695, 0, 30.039)" fill="#fff"/>
+  <path id="Path_301" data-name="Path 301" d="M7.622,0h0l-2,45.732h0L1.38,49.827h0L0,50.611H0L1.714,5.705Z" transform="matrix(0.695, -0.719, 0.719, 0.695, 0, 30.039)" fill="#d1d1d1"/>
+  <path id="Union_2" data-name="Union 2" d="M3.506,8.011H7.011v4.882ZM0,8.011H3.506L0,12.894Zm0,0V0H7.011V8.011Z" transform="translate(42.913 57.291) rotate(-30)" fill="#fff"/>
+  <path id="Path_304" data-name="Path 304" d="M5.007,0h0Z" transform="translate(26.601 66.093) rotate(-180)" fill="#fff"/>
+  <path id="Intersection_1" data-name="Intersection 1" d="M0,8.121V0L11.568,12.193l-.182.092v7.7Z" transform="translate(13.135 32.82)" fill="#bba25c"/>
+  <path id="Intersection_2" data-name="Intersection 2" d="M0,16.339,32.53,0,44.849,11.75,11.386,28.736Z" transform="translate(13.135 16.369)" fill="#fadc00"/>
+</svg>
