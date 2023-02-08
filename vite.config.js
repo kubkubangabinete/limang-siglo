@@ -6,7 +6,7 @@ dotenv.config()
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/limang-siglo/',
+  base: '/',
   plugins: [react()],
   server: {
     port: Number(process.env.PORT)
