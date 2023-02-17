@@ -384,7 +384,7 @@ ul {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, .7);
     display: none;
 }
 
@@ -407,9 +407,6 @@ ul {
     align-items: center;
     justify-content: center;
 }
-
-#ntbk-checkbox-toggle:checked ~ .chapters
-
 
 
 /* Sample Notebook Container + Content */
@@ -631,43 +628,8 @@ overflow: hidden;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 0;
-    transition: all .8s ease;}
+    transition: all .8s ease-in-out;}
 
 .ch-card {
     z-index: 0;
 }
-
-.chd-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    visibility: hidden;
-    background: rgba(0, 0, 0, 0.4);
-}
-
-.chd-overlay-close {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-#chd-checkbox-toggle {
-    display: none;
-    cursor: pointer;
-    z-index: 5000;}
-
-#chd-checkbox-toggle:checked + .chd-overlay {
-    opacity: 1;
-}
-
-.chd-container {
-    z-index: 50000;
-    position: fixed;
-    visibility: hidden;}
-
-#chd-checkbox-toggle:checked ~ .chd-container{
-    visibility: visible;}

@@ -10,11 +10,14 @@ import rotateDeviceIcon from '/src/assets/rotate-device.svg';
 import TabsContent from './TabsContent';
 import ChaptersDirectoryPage from '../../../pages/ChaptersDirectoryPage';
 import umaLogo from '/src/assets/umaLogo.svg';
+import ChaptersContainer from './ChaptersContainer';
+
 
 const Header = () => {
 
   const [checked, setChecked] = useState(false);
   const [hidden, setHidden] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div>
@@ -67,9 +70,13 @@ const Header = () => {
 
       {/* Footer 1 (Chapters Directory) */}
       <div className="footer">
-        <label for="chd-checkbox-toggle">
-        <button className="chapters-btn">Chapters</button>
-        </label>
+        <div onClick={() => console.log('clicked')}>
+            <button className="chapters-btn" onClick={() => setIsOpen(true)}>Chapters</button>
+
+            <ChaptersContainer open={isOpen} onClose={() => setIsOpen(false)}>
+              <ChaptersDirectoryPage/>
+            </ChaptersContainer>
+        </div>
       </div>
 
       {/* About Button 2 */}
@@ -144,8 +151,6 @@ const Header = () => {
         </div>
       </div>
 
-     
-      
       
       {/* Notebook */}
       <input type="checkbox" id="ntbk-checkbox-toggle" className="ntbk-checkbox" />

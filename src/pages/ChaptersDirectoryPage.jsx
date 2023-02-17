@@ -22,7 +22,7 @@ const ChaptersDirectoryPage = () => {
   const plugins = [new Pagination(), new Fade(), new Perspective({ rotate: -0.5, scale: 0.5, perspective: 600 })];
 
   return (
-    
+    <div>
     <motion.div variants={container}
     initial="hidden"
     animate="show"
@@ -51,6 +51,7 @@ const ChaptersDirectoryPage = () => {
       </ViewportSlot>
     </Flicking>
     </motion.div>
+</div>
   )
 }
 
