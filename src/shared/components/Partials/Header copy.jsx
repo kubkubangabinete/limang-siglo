@@ -1,0 +1,166 @@
+import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import GraphicEqOutlinedIcon from '@mui/icons-material/GraphicEqOutlined';
+import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
+import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
+import ImportContactsOutlinedIcon from '@mui/icons-material/ImportContactsOutlined';
+import MenuIcon from '@mui/icons-material/Menu';
+import AudioButton from './AudioButton';
+import rotateDeviceIcon from '/src/assets/rotate-device.svg';
+import TabsContent from './TabsContent';
+import ChaptersDirectoryPage from '../../../pages/ChaptersDirectoryPage';
+import umaLogo from '/src/assets/umaLogo.svg';
+
+const Header = () => {
+
+  const [checked, setChecked] = useState(false);
+  const [hidden, setHidden] = useState(false);
+
+  return (
+    <div>
+      <div className="nav-header">
+        {/* Home Button */}
+        <div className="left-header">
+          <Link to="/">
+            <HomeRoundedIcon className='material-icons home-btn' />
+          </Link>
+        </div>
+
+        {/* Hamburger Button */}
+        <div className="right-header">
+          <input type="checkbox" id="checkbox_toggle" checked={checked}
+            onChange={(e) => setChecked(e.target.checked)} />
+          <label for="checkbox_toggle" class="ham">
+            <MenuIcon className='material-icons ham-btn' />
+          </label>
+
+          {/* Menu */}
+          <div className="menu">
+
+            {/* Notebook Button */}
+
+            <a className='menu-element-i'>
+              <label for="ntbk-checkbox-toggle" className="ntbk-btn">
+                <ImportContactsOutlinedIcon className='material-icons ntbk-icon' />
+              </label>
+            </a>
+
+            {/* Audio Button */}
+            <a className='menu-element-ii'>
+              <AudioButton />
+            </a>
+
+            {/* About Button */}
+            <a className='menu-element-iii' onClick={() => setHidden(true)}>
+              <label for="about-navi-checkbox-toggle" className="about-nav-btn">
+                <InfoOutlinedIcon className='material-icons about-btn' />
+              </label>
+            </a>
+
+          </div> {/* menu*/}
+
+        </div> {/* right-header*/}
+
+
+      </div> {/* nav-header*/}
+
+
+      {/* Footer 1 (Chapters Directory) */}
+      <div className="footer">
+        <label for="chd-checkbox-toggle">
+        <button className="chapters-btn">Chapters</button>
+        </label>
+      </div>
+
+      {/* About Button 2 */}
+      <div className="about-nav">
+        <input type="checkbox" className="about-nav-checkbox" id="about-navi-checkbox-toggle" />
+
+        <label for="about-navi-checkbox-toggle" className="about-nav-btn-alt" onClick={() => setChecked((c) => !c)}>
+          <InfoOutlinedIcon className='material-icons about-btn-alt' />
+        </label>
+
+        <div className="about-nav-bg">&nbsp;</div>
+
+          <p className="about-nav-list about-scroller">
+            <div className='about-website'>
+              <h1 className='header-title'>about 5Siglo</h1>
+              5Siglo, pronounced as Limang Siglo, is an interactive
+              web primer primarily focused on the conditions of the
+              Filipino peasantry before and throughout the 500 years
+              of colonialism and resistance in the Philippines.
+              <br></br><br></br>
+              &#40;INSERT PROJECT TRAILER HERE!&#41;
+            </div>
+
+            <div className='about-org'>
+            <div className='uma-logo-container'><img src={umaLogo} className="uma-logo"/></div>
+              <div>
+                <h1 className='header-title'>the organization</h1>
+                Unyon ng Manggagawa sa Agrikultura &#40;UMA&#41; or National
+                Federation of Agricultural Workers is the national
+                progressive center of unions, federations, and organizations of
+                agricultural workers in the Philippines.
+                <br></br><br></br>
+                UMA is a member of the Asian Peasant Coalition &#40;APC&#41;
+                and the International League of Peoples’ Struggles &#40;ILPS&#41;.
+              </div>
+            </div>
+
+            <div className='about-cta'>
+              <h1 className='header-title'>call to action</h1>
+              In little ways, we can support the Filipino peasant movement's
+              struggle for national freedom and democracy. In the celebration of
+              the Peasant Month this October, we can stand with them in their struggle
+              for land, food, and justice, through amplifying their voices.
+              <br></br><br></br>
+              Join us in honoring them through submitting any peasant-related
+              artworks — illustrations, songs, videos, writings, among many other
+              ones, carrying these calls:
+              <br></br><br></br>
+              <p className='highlighted-text'>
+                #LandToTheTillers
+                #StandWithFarmers
+              </p>
+            </div>
+            
+          </p>
+
+      </div> {/* about-nav*/}
+
+      {/* Rotate Device */}
+      <div className='rotate-device-overlay'>
+        <div className='rotate-device-container'>
+          <img src={rotateDeviceIcon} className='rotate-device-icon'/>
+          <p className='rotate-device-text'>Rotate device for better experience</p>
+        </div>
+      </div>
+
+     
+      
+      
+      {/* Notebook */}
+      <input type="checkbox" id="ntbk-checkbox-toggle" className="ntbk-checkbox" />
+      <div className="ntbk-overlay">
+        <label for="ntbk-checkbox-toggle" className='ntbk-overlay-close'></label>
+     </div>
+
+
+
+ {/* Footer 2 (Chapters Directory) */}
+ <input type="checkbox" id="chd-checkbox-toggle" className="chd-checkbox" />
+ <div className="chd-overlay">
+        <label for="chd-checkbox-toggle" className='chd-overlay-close'></label>
+     </div>
+
+
+     <TabsContent />
+     <ChaptersDirectoryPage />
+    </div>
+
+
+
+  )
+}
+
+export default Header

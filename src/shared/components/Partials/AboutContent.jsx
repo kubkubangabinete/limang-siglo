@@ -13,19 +13,10 @@ const AboutContent = () => {
 
             <div class="about-nav-content">
                 <p className="about-nav-list">
-                    Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut 
-                    aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit 
-                    in voluptate velit esse cillum dolore eu 
-                    fugiat nulla pariatur. Excepteur sint 
-                    occaecat cupidatat non proident, 
-                    sunt in culpa qui officia deserunt mollit 
-                    anim id est laborum.
+                    5Siglo, pronounced as Limang Siglo, is an interactive
+                    web primer primarily focused on the conditions of the
+                    Filipino peasantry before and throughout the 500 years 
+                    of colonialism and resistance in the Philippines.
                 </p>
             </div>
         </div>
