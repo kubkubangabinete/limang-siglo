@@ -1,11 +1,11 @@
-import ChapterIPage from './Chapters/ChapterI';
+import ChapterIPage from '/src/pages/Chapters/ChapterI.jsx';
 import { motion } from "framer-motion";
 {/*import ch1background from '/src/assets/chi-background.png';*/}
 
 const HomePage = () => {
     return (
       <div>
-        HOMEEEE wew
+        <ChapterIPage/>
         
         
         {/*<div className="drag-toggle-btn">
