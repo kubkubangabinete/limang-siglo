@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
+import { Link } from 'react-router-dom';
 
 // For the tabs
 import PropTypes from 'prop-types';
@@ -109,16 +110,16 @@ export default function BasicTabs() {
 
   return (
 
-<div className="ntbk-container" >
+<div className="ntbk-container">
   <div className='ntbk-header'>
   <div className='ntbk-topic'>Chapter Guide</div>
     <Tabs value={value} sx={tabsstyle} onChange={handleChange} aria-label="basic tabs example" className="ntbk-tabs"
         TabIndicatorProps={{hidden: 'true'}}>
-      <Tab label="Ch. 1" sx={tabstyle}  {...a11yProps(0)} />
-      <Tab label="Ch. 2" sx={tabstyle}  {...a11yProps(1)} />
-      <Tab label="Ch. 3" sx={tabstyle} {...a11yProps(2)} />
-      <Tab label="Ch. 4" sx={tabstyle} {...a11yProps(3)} />
-      <Tab label="Ch. 5" sx={tabstyle} {...a11yProps(4)} />
+      <Tab label="Ch. 1" sx={tabstyle}  {...a11yProps(0)} containerElement={<Link to="/notebook/chapter-one"/>} />
+      <Tab label="Ch. 2" sx={tabstyle}  {...a11yProps(1)} containerElement={<Link to="/notebook/chapter-two"/>} />
+      <Tab label="Ch. 3" sx={tabstyle} {...a11yProps(2)} containerElement={<Link to="/notebook/chapter-three"/>} />
+      <Tab label="Ch. 4" sx={tabstyle} {...a11yProps(3)} containerElement={<Link to="/notebook/chapter-four"/>} />
+      <Tab label="Ch. 5" sx={tabstyle} {...a11yProps(4)} containerElement={<Link to="/notebook/chapter-five"/>} />
     </Tabs>
     </div>
 
@@ -725,7 +726,7 @@ export default function BasicTabs() {
           sx={accordionSummaryStyle}
         >
           <Typography
-          sx={typographyStyle}><p className='ntbk-subsubtitle'>5. Support for agricultural workers</p></Typography>
+          sx={typographyStyle}><p className='ntbk-subsubtitle'>5. Agricultural worker support</p></Typography>
         </AccordionSummary>
         <AccordionDetails sx={accordionDetailsStyle}>
           <Typography>
@@ -744,7 +745,7 @@ export default function BasicTabs() {
           sx={accordionSummaryStyle}
         >
           <Typography
-          sx={typographyStyle}><p className='ntbk-subsubtitle'>6. Role of farmers</p></Typography>
+          sx={typographyStyle}><p className='ntbk-subsubtitle'>6. Farmer participation</p></Typography>
         </AccordionSummary>
         <AccordionDetails sx={accordionDetailsStyle}>
           <Typography>

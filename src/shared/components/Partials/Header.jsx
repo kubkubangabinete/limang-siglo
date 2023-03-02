@@ -11,13 +11,16 @@ import TabsContent from './TabsContent';
 import ChaptersDirectoryPage from '../../../pages/ChaptersDirectoryPage';
 import umaLogo from '/src/assets/umaLogo.svg';
 import ChaptersContainer from './ChaptersContainer';
-
+import ChapterIPage from '../../../pages/Chapters/ChapterI';
+import CustomPagination from '/src/shared/components/Partials/CustomPagination';
+import AboutContent from './AboutContent';
 
 const Header = () => {
 
   const [checked, setChecked] = useState(false);
   const [hidden, setHidden] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  
 
   return (
     <div>
@@ -33,7 +36,7 @@ const Header = () => {
         <div className="right-header">
           <input type="checkbox" id="checkbox_toggle" checked={checked}
             onChange={(e) => setChecked(e.target.checked)} />
-          <label for="checkbox_toggle" class="ham">
+          <label htmlFor="checkbox_toggle" className="ham">
             <MenuIcon className='material-icons ham-btn' />
           </label>
 
@@ -43,10 +46,11 @@ const Header = () => {
             {/* Notebook Button */}
 
             <a className='menu-element-i'>
-              <label for="ntbk-checkbox-toggle" className="ntbk-btn">
+              <label htmlFor="ntbk-checkbox-toggle" className="ntbk-btn">
                 <ImportContactsOutlinedIcon className='material-icons ntbk-icon' />
               </label>
             </a>
+
 
             {/* Audio Button */}
             <a className='menu-element-ii'>
@@ -55,10 +59,12 @@ const Header = () => {
 
             {/* About Button */}
             <a className='menu-element-iii' onClick={() => setHidden(true)}>
-              <label for="about-navi-checkbox-toggle" className="about-nav-btn">
+              <label htmlFor="about-navi-checkbox-toggle" className="about-nav-btn">
                 <InfoOutlinedIcon className='material-icons about-btn' />
               </label>
             </a>
+
+            
 
           </div> {/* menu*/}
 
@@ -70,20 +76,20 @@ const Header = () => {
 
       {/* Footer 1 (Chapters Directory) */}
       <div className="footer">
-        <div onClick={() => console.log('clicked')}>
+        <div>
             <button className="chapters-btn" onClick={() => setIsOpen(true)}>Chapters</button>
+            <ChaptersContainer open={isOpen} onClose={() => setIsOpen(false)}/>
 
-            <ChaptersContainer open={isOpen} onClose={() => setIsOpen(false)}>
-              <ChaptersDirectoryPage/>
-            </ChaptersContainer>
         </div>
       </div>
 
+     {/*} <ChapterIPage open={open}/>*/}
+
       {/* About Button 2 */}
       <div className="about-nav">
-        <input type="checkbox" className="about-nav-checkbox" id="about-navi-checkbox-toggle" />
+        <input type="checkbox" id="about-navi-checkbox-toggle" />
 
-        <label for="about-navi-checkbox-toggle" className="about-nav-btn-alt" onClick={() => setChecked((c) => !c)}>
+        <label htmlFor="about-navi-checkbox-toggle" className="about-nav-btn-alt" onClick={() => setChecked((c) => !c)}>
           <InfoOutlinedIcon className='material-icons about-btn-alt' />
         </label>
 
@@ -98,7 +104,7 @@ const Header = () => {
                 Filipino peasantry before and throughout the 500 years
                 of colonialism and resistance in the Philippines.
               </p>
-              <p>&#40;INSERT PROJECT TRAILER HERE!&#41;</p>
+              <p>&#40;INSERT EXPLAINER HERE!&#41;</p>
             </div>
 
             <div className='about-org'>
@@ -152,13 +158,15 @@ const Header = () => {
       </div>
 
       
-      {/* Notebook */}
+      {/* Notebook (for opening the notebook) */}
       <input type="checkbox" id="ntbk-checkbox-toggle" className="ntbk-checkbox" />
       <div className="ntbk-overlay">
-        <label for="ntbk-checkbox-toggle" className='ntbk-overlay-close'></label>
+        <label htmlFor="ntbk-checkbox-toggle" className='ntbk-overlay-close'></label>
      </div>
 
      <TabsContent />
+              
+
     </div>
 
 

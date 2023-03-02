@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ChaptersDirectoryPage from '../../../pages/ChaptersDirectoryPage';
 
 const ChaptersContainerStyles = {
     position: 'fixed',
@@ -20,9 +21,10 @@ const ChaptersOverlayStyles = {
     bottom: 0,
     backgroundColor: 'rgba(0, 0, 0, .7)',
     zIndex: 1000,
+    
 } 
 
-export default function ChaptersContainer({ open, children, onClose}) {
+export default function ChaptersContainer({ open, onClose}) {
     if (!open) return null
 
     return ReactDOM.createPortal(
@@ -30,7 +32,7 @@ export default function ChaptersContainer({ open, children, onClose}) {
             <div style={ChaptersOverlayStyles} onClick={onClose}/>
             <div style={ChaptersContainerStyles}>
                 <button className="chapters-btn" onClick={onClose}>Chapters</button>
-                {children}
+                <ChaptersDirectoryPage />
             </div>
         </>,
         document.getElementById('portal')

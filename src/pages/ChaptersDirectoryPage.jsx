@@ -16,10 +16,13 @@ const container = {
   show: {
     opacity: 1,
   }
+  
 }
 
+const plugins = [new Pagination(), new Fade(), new Perspective({ rotate: -0.5, scale: 0.5, perspective: 600 })];
+
 const ChaptersDirectoryPage = () => {
-  const plugins = [new Pagination(), new Fade(), new Perspective({ rotate: -0.5, scale: 0.5, perspective: 600 })];
+  
 
   return (
     <div>
