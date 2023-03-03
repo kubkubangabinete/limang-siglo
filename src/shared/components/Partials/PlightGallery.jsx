@@ -28,7 +28,7 @@ const Plight = () => {
       <a className="plight-carousel__skip-link" href="#plight-skip-link">Skip the plight-Carousel</a>
         <div className="plight-slides">
     
-          <div className="plight-slides-item plight-slide-1" id="plight-slide-1" aria-label="slide 1 of 10" tabindex="0">
+          <div className="plight-slides-item plight-slide-1" id="plight-slide-1" aria-label="slide 1 of 10" tabIndex="0">
             <div className="plight-card-image">
                 <img className="plight-card-image-img" src="https://media.giphy.com/media/FTttO6GosqxuvvsMHn/giphy.gif"/>
             </div>
@@ -42,7 +42,7 @@ const Plight = () => {
             </div>
           </div>
     
-        <div className="plight-slides-item plight-slide-2" id="plight-slide-2" aria-label="slide 2 of 10" tabindex="0">
+        <div className="plight-slides-item plight-slide-2" id="plight-slide-2" aria-label="slide 2 of 10" tabIndex="0">
             <div className="plight-card-image">
                 <img className="plight-card-image-img" src="https://media.giphy.com/media/sq9TLxv9OIV6G79nb9/giphy.gif"/>
             </div>
@@ -58,7 +58,7 @@ const Plight = () => {
               </div>
             </div>
         </div>
-        <div className="plight-slides-item plight-slide-3" id="plight-slide-3" aria-label="slide 3 of 10" tabindex="0">
+        <div className="plight-slides-item plight-slide-3" id="plight-slide-3" aria-label="slide 3 of 10" tabIndex="0">
         <div className="plight-card-image">
                 <img className="plight-card-image-img" src={sampleLandscape}/>
             </div>
@@ -74,7 +74,7 @@ const Plight = () => {
               </div>
             </div>
         </div>
-        <div className="plight-slides-item plight-slide-4" id="plight-slide-4" aria-label="slide 4 of 10" tabindex="0">
+        <div className="plight-slides-item plight-slide-4" id="plight-slide-4" aria-label="slide 4 of 10" tabIndex="0">
         <div className="plight-card-image">
                 <img className="plight-card-image-img" src={sampleLandscape}/>
             </div>
@@ -87,7 +87,7 @@ const Plight = () => {
               </div>
             </div>
         </div>
-        <div className="plight-slides-item plight-slide-5" id="plight-slide-5" aria-label="slide 5 of 10" tabindex="0">
+        <div className="plight-slides-item plight-slide-5" id="plight-slide-5" aria-label="slide 5 of 10" tabIndex="0">
         <div className="plight-card-image">
                 <img className="plight-card-image-img" src={sampleLandscape}/>
             </div>
@@ -99,7 +99,7 @@ const Plight = () => {
               </div>
             </div>
         </div>
-        <div className="plight-slides-item plight-slide-6" id="plight-slide-6" aria-label="slide 6 of 10" tabindex="0">
+        <div className="plight-slides-item plight-slide-6" id="plight-slide-6" aria-label="slide 6 of 10" tabIndex="0">
         <div className="plight-card-image">
                 <img className="plight-card-image-img" src="https://media.giphy.com/media/fZgaDnsLftBgD6LQIQ/giphy.gif"/>
             </div>
@@ -111,7 +111,7 @@ const Plight = () => {
               </div>
             </div>
         </div>
-        <div className="plight-slides-item plight-slide-7" id="plight-slide-7" aria-label="slide 7 of 10" tabindex="0">
+        <div className="plight-slides-item plight-slide-7" id="plight-slide-7" aria-label="slide 7 of 10" tabIndex="0">
         <div className="plight-card-image">
                 <img className="plight-card-image-img" src="https://media.giphy.com/media/allqaf8rK2bG7hPci1/giphy.gif"/>
             </div>
@@ -123,7 +123,7 @@ const Plight = () => {
               </div>
             </div>
         </div>
-        <div className="plight-slides-item plight-slide-8" id="plight-slide-8" aria-label="slide 8 of 10" tabindex="0">
+        <div className="plight-slides-item plight-slide-8" id="plight-slide-8" aria-label="slide 8 of 10" tabIndex="0">
         <div className="plight-card-image">
                 <img className="plight-card-image-img" src="https://media.giphy.com/media/JPH7nyTLXN21Hl9QXj/giphy.gif"/>
             </div>
@@ -135,7 +135,7 @@ const Plight = () => {
               </div>
             </div>
         </div>
-        <div className="plight-slides-item plight-slide-9" id="plight-slide-9" aria-label="slide 9 of 10" tabindex="0">
+        <div className="plight-slides-item plight-slide-9" id="plight-slide-9" aria-label="slide 9 of 10" tabIndex="0">
         <div className="plight-card-image">
                 <img className="plight-card-image-img" src={sampleLandscape}/>
             </div>
@@ -148,7 +148,7 @@ const Plight = () => {
               </div>
             </div>
         </div>
-        <div className="plight-slides-item plight-slide-10" id="plight-slide-10" aria-label="slide 10 of 10" tabindex="0">
+        <div className="plight-slides-item plight-slide-10" id="plight-slide-10" aria-label="slide 10 of 10" tabIndex="0">
         <div className="plight-card-image">
                 <img className="plight-card-image-img" src={sampleLandscape}/>
             </div>
@@ -174,7 +174,7 @@ const Plight = () => {
         <a className="plight-slider-nav" href="#plight-slide-9" aria-label="Go to slide 9">9</a>
         <a className="plight-slider-nav" href="#plight-slide-10" aria-label="Go to slide 10">10</a>
       </div>
-      <div className="plight-carousel__skip-message" id="plight-skip-link" tabindex="0"></div>
+      <div className="plight-carousel__skip-message" id="plight-skip-link" tabIndex="0"></div>
     </div>
   </div>
 

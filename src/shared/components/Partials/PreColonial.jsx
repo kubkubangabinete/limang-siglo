@@ -25,12 +25,12 @@ const PreColonial = () => {
         className="dev-slides-item dev-slide-1"
         id="dev-slide-1"
         aria-label="slide 1 of 2"
-        tabindex="0"
+        tabIndex="0"
       >
         <div className="rice-terraces-container">
           <model-viewer
             className="model-viewer"
-            src="../../../assets/rice-terraces.glb"
+            src="../../../../public/rice-terraces.glb"
             loading="eager"
             style={{
               width: "30vw",
@@ -51,7 +51,7 @@ const PreColonial = () => {
             ar
             exposure="2"
             shadow-softness="1"
-            environment-image="../../../assets/pillars_1k.hdr"
+            environment-image="../../../../public/pillars_1k.hdr"
             ar-modes="webxr"
             ref={(ref) => {
               modelRef.current = ref;
