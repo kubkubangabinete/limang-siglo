@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import Ch5Info from "/src/shared/components/Partials/Ch5Info.jsx";
+import Ch5Info from "../../shared/components/Partials/Ch5Info";
 import { styled } from "@mui/material/styles";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 
 const HtmlTooltip = styled(({ className, ...props }) => (
   <Tooltip {...props} classes={{ popper: className }} />

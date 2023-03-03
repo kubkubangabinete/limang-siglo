@@ -1,5 +1,4 @@
-import { motion } from "framer-motion";
-import Roots from '/src/shared/components/Partials/RootsGallery.jsx';
+import Roots from '../../shared/components/Partials/RootsGallery';
 
 const ChapterIVPage = () => {
     return (

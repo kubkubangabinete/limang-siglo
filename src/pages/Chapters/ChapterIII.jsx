@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Plight from '/src/shared/components/Partials/PlightGallery.jsx';
+import Plight from '../../shared/components/Partials/PlightGallery';
 
 const ChapterIIIPage = () => {
     return (

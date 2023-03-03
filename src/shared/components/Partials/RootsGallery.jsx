@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import sampleSpanish from "/src/assets/chii-sample-america.png";
-import Ch4Info from "/src/shared/components/Partials/Ch4Info.jsx";
+import sampleSpanish from "../../../assets/chii-sample-america.png";
+import Ch4Info from "./Ch4Info";
 
 const Roots = () => {
     const [isOpen, setIsOpen] = useState(false);

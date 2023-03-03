@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import farmvid from "/src/assets/vids/Chapter-1.webm";
+import farmvid from "../../assets/vids/Chapter-1.webm";
 
 const ChapterIPage = () => {
   const [checked, setChecked] = useState(false);

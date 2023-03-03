@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import sample from '/src/assets/chiv-sample1.png';
+import sample from '../../../assets/chiv-sample1.png';
 import KeyboardDoubleArrowRightRoundedIcon from '@mui/icons-material/KeyboardDoubleArrowRightRounded';
 import Avatar from '@mui/material/Avatar';
 import { orange } from '@mui/material/colors';

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import samplePres from "/src/assets/chii-sample-pres.png"
+import samplePres from "../../../assets/chii-sample-pres.png"
 import { Link } from "react-router-dom";
-import Ch2Info from "/src/shared/components/Partials/Ch2Info.jsx";
+import Ch2Info from "./Ch2Info";
 
 const PreColonial2 = () => {
   const modelRef = React.useRef();

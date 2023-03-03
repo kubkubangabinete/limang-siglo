@@ -1,6 +1,5 @@
-import ChapterIPage from '/src/pages/Chapters/ChapterI.jsx';
+import ChapterIPage from './Chapters/ChapterI';
 import { motion } from "framer-motion";
-{/*import ch1background from '/src/assets/chi-background.png';*/}
 
 const HomePage = () => {
     return (

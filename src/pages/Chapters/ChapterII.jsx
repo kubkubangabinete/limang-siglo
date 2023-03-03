@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom'
 import React, { useState } from "react";
-import Ch2Info from "/src/shared/components/Partials/Ch2Info.jsx";
+import Ch2Info from "../../shared/components/Partials/Ch2Info";
 
 const ChapterIIPage = () => {
   const [checked, setChecked] = useState(false);

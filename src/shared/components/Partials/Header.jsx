@@ -1,19 +1,14 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from "react";
-import GraphicEqOutlinedIcon from '@mui/icons-material/GraphicEqOutlined';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import ImportContactsOutlinedIcon from '@mui/icons-material/ImportContactsOutlined';
 import MenuIcon from '@mui/icons-material/Menu';
 import AudioButton from './AudioButton';
-import rotateDeviceIcon from '/src/assets/rotate-device.svg';
+import rotateDeviceIcon from '../../../assets/rotate-device.svg';
 import TabsContent from './TabsContent';
-import ChaptersDirectoryPage from '../../../pages/ChaptersDirectoryPage';
-import umaLogo from '/src/assets/umaLogo.svg';
+import umaLogo from '../../../assets/umaLogo.svg';
 import ChaptersContainer from './ChaptersContainer';
-import ChapterIPage from '../../../pages/Chapters/ChapterI';
-import CustomPagination from '/src/shared/components/Partials/CustomPagination';
-import AboutContent from './AboutContent';
 
 const Header = () => {
 

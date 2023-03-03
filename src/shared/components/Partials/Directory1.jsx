@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
-import sample from '/src/assets/samplefarm.png';
+import sample from '../../../assets/samplefarm.png';
 import KeyboardDoubleArrowRightRoundedIcon from '@mui/icons-material/KeyboardDoubleArrowRightRounded';
 import Avatar from '@mui/material/Avatar';
 import { orange } from '@mui/material/colors';

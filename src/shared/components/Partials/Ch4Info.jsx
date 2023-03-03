@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import sampleSpanish from "/src/assets/chii-sample-america.png";
+import sampleSpanish from "../../../assets/chii-sample-america.png";
 import { Link } from "react-router-dom";
 import ReactDOM from "react-dom";
 

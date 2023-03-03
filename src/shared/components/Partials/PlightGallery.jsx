@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import sampleLandscape from "/src/assets/chii-sample1.png";
-import Ch3Info from "/src/shared/components/Partials/Ch3Info.jsx";
+import sampleLandscape from "../../../assets/chii-sample1.png";
+import Ch3Info from "./Ch3Info";
 
 const Plight = () => {
   const [isOpen, setIsOpen] = useState(false);
