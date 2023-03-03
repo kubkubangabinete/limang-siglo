@@ -30,7 +30,7 @@ const PreColonial = () => {
         <div className="rice-terraces-container">
           <model-viewer
             className="model-viewer"
-            src="/src/assets/rice-terraces.glb"
+            src="../../../assets/rice-terraces.glb"
             loading="eager"
             style={{
               width: "30vw",
@@ -51,7 +51,7 @@ const PreColonial = () => {
             ar
             exposure="2"
             shadow-softness="1"
-            environment-image="/src/assets/pillars_1k.hdr"
+            environment-image="../../../assets/pillars_1k.hdr"
             ar-modes="webxr"
             ref={(ref) => {
               modelRef.current = ref;

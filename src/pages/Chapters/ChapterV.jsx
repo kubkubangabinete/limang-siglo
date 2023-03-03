@@ -66,7 +66,7 @@ const [isOpen, setIsOpen] = useState(false);
                   <div className="sol-card-image">
                     <model-viewer
                       className="model-viewer"
-                      src="/src/assets/Ch. 5 - Free land.glb"
+                      src="../../assets/Ch. 5 - Free land.glb"
                       loading="eager"
                       style={{
                         width: "13vw",
@@ -87,7 +87,7 @@ const [isOpen, setIsOpen] = useState(false);
                       ar
                       exposure="2"
                       shadow-softness="1"
-                      environment-image="/src/assets/pillars_1k.hdr"
+                      environment-image="../../assets/pillars_1k.hdr"
                       ar-modes="webxr"
                       ref={(ref) => {
                         modelRef.current = ref;
@@ -113,7 +113,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <div className="sol-card-image">
                   <model-viewer
                     className="model-viewer"
-                    src="/src/assets/Ch. 5 - Sign board.glb"
+                    src="../../assets/Ch. 5 - Sign board.glb"
                     loading="eager"
                     style={{
                       width: "13vw",
@@ -134,7 +134,7 @@ const [isOpen, setIsOpen] = useState(false);
                     ar
                     exposure="1"
                     shadow-softness="1"
-                    environment-image="/src/assets/pillars_1k.hdr"
+                    environment-image="../../assets/pillars_1k.hdr"
                     ar-modes="webxr"
                     ref={(ref) => {
                       modelRef.current = ref;
@@ -158,7 +158,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <div className="sol-card-image">
                   <model-viewer
                     className="model-viewer"
-                    src="/src/assets/Ch. 5 - Shield.glb"
+                    src="../../assets/Ch. 5 - Shield.glb"
                     loading="eager"
                     style={{
                       width: "13vw",
@@ -179,7 +179,7 @@ const [isOpen, setIsOpen] = useState(false);
                     ar
                     exposure="1.5"
                     shadow-softness="1"
-                    environment-image="/src/assets/pillars_1k.hdr"
+                    environment-image="../../assets/pillars_1k.hdr"
                     ar-modes="webxr"
                     ref={(ref) => {
                       modelRef.current = ref;
@@ -203,7 +203,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <div className="sol-card-image">
                   <model-viewer
                     className="model-viewer"
-                    src="/src/assets/Ch. 5 - Benefits.glb"
+                    src="../../assets/Ch. 5 - Benefits.glb"
                     loading="eager"
                     style={{
                       width: "13vw",
@@ -224,7 +224,7 @@ const [isOpen, setIsOpen] = useState(false);
                     ar
                     exposure="0.5"
                     shadow-softness="1"
-                    environment-image="/src/assets/pillars_1k.hdr"
+                    environment-image="../../assets/pillars_1k.hdr"
                     ar-modes="webxr"
                     ref={(ref) => {
                       modelRef.current = ref;
@@ -247,7 +247,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <div className="sol-card-image">
                   <model-viewer
                     className="model-viewer"
-                    src="/src/assets/Ch. 5 - Piggy bank.glb"
+                    src="../../assets/Ch. 5 - Piggy bank.glb"
                     loading="eager"
                     style={{
                       width: "13vw",
@@ -268,7 +268,7 @@ const [isOpen, setIsOpen] = useState(false);
                     ar
                     exposure="1"
                     shadow-softness="1"
-                    environment-image="/src/assets/pillars_1k.hdr"
+                    environment-image="../../assets/pillars_1k.hdr"
                     ar-modes="webxr"
                     ref={(ref) => {
                       modelRef.current = ref;
@@ -291,7 +291,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <div className="sol-card-image">
                   <model-viewer
                     className="model-viewer"
-                    src="/src/assets/Ch. 5 - Gear.glb"
+                    src="../../assets/Ch. 5 - Gear.glb"
                     loading="eager"
                     style={{
                       width: "13vw",
@@ -312,7 +312,7 @@ const [isOpen, setIsOpen] = useState(false);
                     ar
                     exposure="0.5"
                     shadow-softness="1"
-                    environment-image="/src/assets/pillars_1k.hdr"
+                    environment-image="../../assets/pillars_1k.hdr"
                     ar-modes="webxr"
                     ref={(ref) => {
                       modelRef.current = ref;
@@ -335,7 +335,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <div className="sol-card-image">
                   <model-viewer
                     className="model-viewer"
-                    src="/src/assets/Ch. 5 - Factory.glb"
+                    src="../../assets/Ch. 5 - Factory.glb"
                     loading="eager"
                     style={{
                       width: "13vw",
@@ -356,7 +356,7 @@ const [isOpen, setIsOpen] = useState(false);
                     ar
                     exposure="1"
                     shadow-softness="1"
-                    environment-image="/src/assets/pillars_1k.hdr"
+                    environment-image="../../assets/pillars_1k.hdr"
                     ar-modes="webxr"
                     ref={(ref) => {
                       modelRef.current = ref;
