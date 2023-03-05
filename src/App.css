@@ -2450,12 +2450,6 @@ vertical-align: middle;
 
 }
 
-sup {
-
- 
-
-}
-
 .about-ch {
     width: 3vh;
     height: 3vh;
@@ -2619,10 +2613,7 @@ sup {
     height:40vh;
     position: fixed;
     top: 30%;
-    left: 24.5%;
-    
-
-    }
+    left: 24.5%;}
     
 .farm-dialogue-text {
     margin: 3vh 0.5vw 5vh 4vw;
@@ -2635,9 +2626,7 @@ sup {
     flex-direction: column;
     align-items: center;
     text-align: left;
-    vertical-align: middle;
-    
-    }
+    vertical-align: middle;}
     
 .farm-dialogue-h2 {
     font-weight: 600;
@@ -2658,3 +2647,127 @@ sup {
 .farm-dialogue-p {
     font-size: 2vh;
     animation: fadedown 1.2s ease-in-out;}
+
+/* Chapter 1 Bubble Heads */
+.farm-heads-container {
+    z-index: 1;
+    position: fixed;
+    display: grid;
+    width: 100vw;
+    height: 85vh;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-53%,-20%);
+    display: grid;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1vh 3vw;}
+
+.farm-head-icon {
+    border-radius: 50%;
+    grid-row: 1;
+    border: none;
+    cursor: pointer;}
+
+.farm-head-img {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.7vh solid white;
+    border-radius: 50%;
+    
+    -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    -webkit-mask-size: 800%;
+    mask-size: 800%;
+    -webkit-mask-position: 0;
+    mask-position: 0;}
+
+.farm-head-img:hover {
+    transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+    border: 0.7vh solid #ffd900;
+    -webkit-mask-position: 120%;
+    mask-position: 120%;
+    opacity: 1;}
+
+/* Chapter 1 Dialogue Modals */
+
+.dialogue-modal-container{
+    align-items: center;
+    animation: fadedown 0.6s ease-in-out;
+    border-radius: 2vh;
+    display:flex;
+    background: linear-gradient(
+    #f1ede6 50%,
+    #d9c7a8 150%);
+    box-shadow: inset 0px 30px 10px -20px #ffd82ab3,
+    inset 0 0 10px 10px #9a815a36,
+     0 5px 10px rgba(67, 39, 39, 0.3);
+
+    /* width: 45vw; */
+    height: fit-content;
+    overflow-x: hidden;
+    width: 50vw;
+    height:30vh;
+    position: fixed;
+    top: 65%;
+    left: 23.5%;}
+    
+.dialogue-modal-text {
+    margin: 3vh 0.5vw 5vh 4vw;
+    position: relative;
+    padding: 1vh 40px 0 0;
+    overflow-y: overlay;
+    opacity: 1;
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    text-align: left;
+    vertical-align: middle;}
+    
+.dialogue-modal-h2 {
+    font-weight: 600;
+    font-size: 2vh;
+    color: #eec627;
+    animation: fadedown 0.9s ease-in-out;
+    transition: 0.4s;
+    margin-bottom: 1vh;
+    text-align: left;}
+    
+.dialogue-modal-p {
+    font-size: 2vh;
+    }
+
+.dialogue-half-char-container {
+    display:flex;
+    position: fixed;
+    width: 20vh;
+    left: 27%;
+    top: 45%;
+    animation: fadedown 1s ease-in-out;
+    
+}
+
+.dialogue-half-char {
+    width: 100%;
+}
+
+/* align-items: center;
+animation: fadedown 0.6s ease-in-out;
+
+display:flex;
+height: fit-content;
+overflow-x: hidden;
+width: 50vw;
+height:35vh;
+position: fixed;
+top: 60%;
+left: 23.5%; */
+
+.char3 {
+    top: 46%;
+}

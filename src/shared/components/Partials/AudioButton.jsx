@@ -1,8 +1,7 @@
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import MusicOffIcon from '@mui/icons-material/MusicOff';
-import audioSfx from '../sfx/lanalana.mp3'
+import audioSfx from '../sfx/Just-Relax_Lesfm.mp3';
 import React, { useState, useEffect } from "react";
-
 
 const useAudio = url => {
   const [audio] = useState(new Audio(audioSfx));

@@ -2,128 +2,56 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import farmvid from "../../assets/vids/Chapter-1.webm";
+import Ch1D1 from "../../shared/components/Partials/Ch1Dialogue1";
+import Ch1D2 from "../../shared/components/Partials/Ch1Dialogue2";
+import Ch1D3 from "../../shared/components/Partials/Ch1Dialogue3";
+import HeadWoman1 from "../../assets/Head_Woman-1.png";
+import HeadMan1 from "../../assets/Head_Man-1.png";
+import HeadMan2 from "../../assets/Head_Man-2.png";
+import Ch1Info from "../../shared/components/Partials/Ch1Info";
 
 const ChapterIPage = () => {
-  const [checked, setChecked] = useState(false);
-  const [hidden, setHidden] = useState(false);
+  const [isOpen1, setIsOpen1] = useState(false);
+  const [isOpen2, setIsOpen2] = useState(false);
+  const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   const modelRef = React.useRef();
   return (
-    
     <div className="farm-vid-container">
-
       <video autoPlay muted loop id="farmvid">
         <source src={farmvid} type="video/mp4" />
       </video>
-
-      {/* <div className="farm-heads-container">
-        <img src="/src/assets/Head_Man-1.png"/>
-        <img src="/src/assets/Head_Man-2.png"/>
-        <img src="/src/assets/Head_Woman-1.png"/>
-      </div> */}
-
-      {/* Part 1: Woman */}
-      <div className="farm-dialogue-container-1">
-        <div className="farm-dialogue-image-1">
-          <img></img>
-        </div>
-        
-        <div className="farm-dialogue-1">
-          <p>Oh, hi there. I didn't notice you.</p>
-        </div>
-        <div className="farm-dialogue-2">
-          <p>Peasants, you say?</p>
-        </div>
-        <div className="farm-dialogue-3">
-          <p>Peasants are basically farmers who are
-            tied to a <i>feudal</i> bondage. Feudal, as
-            in landlord versus peasant. The land
-            we till is not ours.
-          </p>
-        </div>
-        <div className="farm-dialogue-4">
-          <p>Land is really important to us,
-            especially when it's what we get 
-            our food and livelihood from.
-          </p>
-        </div>
-        <div className="farm-dialogue-5">
-          <p>I hope that helped a bit.
-            You can ask the other two if you
-            want to know more, okay?
-          </p>
-        </div>
-
-      </div>
-
-      {/* Part 2: Man 1 (green shirt) */}
-      <div className="farm-dialogue-container-2">
-        <div className="farm-dialogue-image-2">
-          <img></img>
-        </div>
-        
-        <div className="farm-dialogue-6">
-          <p>Hello, I was just fishing a while ago.</p>
-        </div>
-        <div className="farm-dialogue-7">
-          <p>Yes, I am a fisherman but I also farm.
-            Do you know peasants can earn from
-            various livelihoods?
-          </p>
-        </div>
-        <div className="farm-dialogue-8">
-          <p>Some raise animals. Some are
-            carpenters. Some may also do handicraft work
-            like that lady over there.
-          </p>
-        </div>
-        <div className="farm-dialogue-9">
-          <p>Nevertheless, we're still peasants.
-            Landless farmers who have a common
-            dream of having a land of our own.
-          </p>
+      
+<div className="prec-1 chii-z">
+          <h1 className="page-header-title">
+            chapter1
+            <sup>
+              <button className="about-ch" onClick={() => setIsOpen(true)}>
+                ?
+              </button>
+            </sup>
+          </h1>
+          <Ch1Info open={isOpen} onClose={() => setIsOpen(false)} />
         </div>
 
 
-      </div>
+      <div className="farm-heads-container">
+        <button className="farm-head-icon" onClick={() => setIsOpen1(true)}>
+          <img className="farm-head-img" src={HeadWoman1} />
+        </button>
 
-      {/* Part 3: Man 2 (big hat) */}
-      <div className="farm-dialogue-container-3">
-        <div className="farm-dialogue-image-3">
-          <img></img>
-        </div>
-        
-        <div className="farm-dialogue-10">
-          <p>Hey, need something?</p>
-        </div>
-        <div className="farm-dialogue-11">
-          <p>Sure, I think can share a thing or two.</p>
-        </div>
-        <div className="farm-dialogue-12">
-          <p>In the countryside or rural areas,
-            peasants can be rich, middle, or poor.
-          </p>
-        </div>
-        <div className="farm-dialogue-13">
-          <p>Of course, they are exactly
-            alike to those in urban areas. The urban
-            rich is different from the rural rich.
-          </p>
-        </div>
-        <div className="farm-dialogue-14">
-          <p>Rich, middle, or poor peasant — they
-            are still peasants after all, oppressed
-            and exploited by powerful forces.
-          </p>
-        </div>
-        <div className="farm-dialogue-15">
-          <p>Big landlords, corporations, and bureaucrats.</p>
-        </div>
-        <div className="farm-dialogue-16">
-          <p>That's pretty much it. Thanks for dropping by.</p>
-        </div>
+        <button className="farm-head-icon" onClick={() => setIsOpen2(true)}>
+          <img className="farm-head-img" src={HeadMan2} />
+        </button>
 
+        <button className="farm-head-icon" onClick={() => setIsOpen3(true)}>
+          <img className="farm-head-img" src={HeadMan1} />
+        </button>
+
+        <Ch1D1 open={isOpen1} onClose={() => setIsOpen1(false)} />
+        <Ch1D2 open={isOpen2} onClose={() => setIsOpen2(false)} />
+        <Ch1D3 open={isOpen3} onClose={() => setIsOpen3(false)} />
       </div>
 
     </div>

@@ -117,7 +117,7 @@ const PreColonial = () => {
         </Link>
       </div>
 
-      <Link to="/chapters-directory/chapter-2" style={{ color: "white" }}>
+      <Link to="/chapters-directory/chapter-2">
         <div className="chapter-two-btn chapter-two-btn-container">
           <button className="chapter-two-links back-btn">Back</button>
         </div>

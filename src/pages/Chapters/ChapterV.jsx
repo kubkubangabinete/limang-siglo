@@ -4,6 +4,7 @@ import { styled } from "@mui/material/styles";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
 
+
 const HtmlTooltip = styled(({ className, ...props }) => (
   <Tooltip {...props} classes={{ popper: className }} />
 ))(({ theme }) => ({
@@ -87,7 +88,7 @@ const [isOpen, setIsOpen] = useState(false);
                       ar
                       exposure="2"
                       shadow-softness="1"
-                      environment-image="../../../public/pillars_1k.hdr"
+                      environment-image="/public/pillars_1k.hdr"
                       ar-modes="webxr"
                       ref={(ref) => {
                         modelRef.current = ref;
@@ -134,7 +135,7 @@ const [isOpen, setIsOpen] = useState(false);
                     ar
                     exposure="1"
                     shadow-softness="1"
-                    environment-image="../../../public/pillars_1k.hdr"
+                    environment-image="/public/pillars_1k.hdr"
                     ar-modes="webxr"
                     ref={(ref) => {
                       modelRef.current = ref;
@@ -179,7 +180,7 @@ const [isOpen, setIsOpen] = useState(false);
                     ar
                     exposure="1.5"
                     shadow-softness="1"
-                    environment-image="../../../public/pillars_1k.hdr"
+                    environment-image="/public/pillars_1k.hdr"
                     ar-modes="webxr"
                     ref={(ref) => {
                       modelRef.current = ref;
@@ -224,7 +225,7 @@ const [isOpen, setIsOpen] = useState(false);
                     ar
                     exposure="0.5"
                     shadow-softness="1"
-                    environment-image="../../../public/pillars_1k.hdr"
+                    environment-image="/public/pillars_1k.hdr"
                     ar-modes="webxr"
                     ref={(ref) => {
                       modelRef.current = ref;
@@ -268,7 +269,7 @@ const [isOpen, setIsOpen] = useState(false);
                     ar
                     exposure="1"
                     shadow-softness="1"
-                    environment-image="../../../public/pillars_1k.hdr"
+                    environment-image="/public/pillars_1k.hdr"
                     ar-modes="webxr"
                     ref={(ref) => {
                       modelRef.current = ref;
@@ -312,7 +313,7 @@ const [isOpen, setIsOpen] = useState(false);
                     ar
                     exposure="0.5"
                     shadow-softness="1"
-                    environment-image="../../../public/pillars_1k.hdr"
+                    environment-image="/public/pillars_1k.hdr"
                     ar-modes="webxr"
                     ref={(ref) => {
                       modelRef.current = ref;
@@ -356,7 +357,7 @@ const [isOpen, setIsOpen] = useState(false);
                     ar
                     exposure="1"
                     shadow-softness="1"
-                    environment-image="../../../public/pillars_1k.hdr"
+                    environment-image="/public/pillars_1k.hdr"
                     ar-modes="webxr"
                     ref={(ref) => {
                       modelRef.current = ref;
