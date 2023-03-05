@@ -2,12 +2,17 @@ import React, { useState } from "react";
 import samplePres from "../../../assets/chii-sample-pres.png";
 import { Link } from "react-router-dom";
 import Ch2Info from "./Ch2Info";
+import { Suspense } from 'react'
+import { Canvas } from '@react-three/fiber'
+import { Environment, OrbitControls } from '@react-three/drei'
+import RiceTerraces from './RiceTerraces'
 
 const PreColonial = () => {
   const [checked, setChecked] = useState(false);
   const [hidden, setHidden] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const modelRef = React.useRef();
+  
   return (
     <div className="dev-carousel ">
       <div className="prec-1">
@@ -28,7 +33,7 @@ const PreColonial = () => {
         tabIndex="0"
       >
         <div className="rice-terraces-container">
-          <model-viewer
+          {/* <model-viewer
             className="model-viewer"
             src="../../../../public/rice-terraces.glb"
             loading="eager"
@@ -57,7 +62,30 @@ const PreColonial = () => {
               modelRef.current = ref;
             }}
           >
-          </model-viewer>
+          </model-viewer> */}
+
+<Canvas className="model-viewer"
+style={{
+  width: "30vw",
+  height: "30vw",
+  padding: "0",
+  margin: "0",
+  borderRadius: "50%",
+  border: "1.5vh solid lightyellow",
+  top: "0",
+  background:
+  "linear-gradient(#f1ede6 10%,rgba(220, 208, 181)100%)",
+  hover: {
+    boxShadow: "0px 0px 100px 100px red",
+  },
+}}>
+        <Suspense fallback={null}>
+          <RiceTerraces />
+          <Environment preset="sunset" />
+        </Suspense>
+        <OrbitControls />
+      </Canvas>
+          
 
           
           <div className="rice-card-modal-container">
@@ -70,6 +98,7 @@ const PreColonial = () => {
                 systems were not perfect, not free from peasant oppression and
                 slavery — land, at least in many parts of Luzon, was shared by
                 everyone and was tilled for the whole community.
+                
               </p>
               <p className="rice-card-modal-p">
                 One well-known development is that there was already a
