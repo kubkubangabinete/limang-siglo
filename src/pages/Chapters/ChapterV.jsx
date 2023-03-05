@@ -67,7 +67,7 @@ const [isOpen, setIsOpen] = useState(false);
                   <div className="sol-card-image">
                     <model-viewer
                       className="model-viewer"
-                      src="../../../public/FreeLand.glb"
+                      src="/FreeLand.glb"
                       loading="eager"
                       style={{
                         width: "13vw",
@@ -114,7 +114,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <div className="sol-card-image">
                   <model-viewer
                     className="model-viewer"
-                    src="../../../public/SignBoard.glb"
+                    src="/SignBoard.glb"
                     loading="eager"
                     style={{
                       width: "13vw",
@@ -159,7 +159,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <div className="sol-card-image">
                   <model-viewer
                     className="model-viewer"
-                    src="../../../public/Shield.glb"
+                    src="/Shield.glb"
                     loading="eager"
                     style={{
                       width: "13vw",
@@ -204,7 +204,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <div className="sol-card-image">
                   <model-viewer
                     className="model-viewer"
-                    src="../../../public/Benefits.glb"
+                    src="/Benefits.glb"
                     loading="eager"
                     style={{
                       width: "13vw",
@@ -248,7 +248,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <div className="sol-card-image">
                   <model-viewer
                     className="model-viewer"
-                    src="../../../public/PiggyBank.glb"
+                    src="/PiggyBank.glb"
                     loading="eager"
                     style={{
                       width: "13vw",
@@ -292,7 +292,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <div className="sol-card-image">
                   <model-viewer
                     className="model-viewer"
-                    src="../../../public/Gear.glb"
+                    src="/Gear.glb"
                     loading="eager"
                     style={{
                       width: "13vw",
@@ -336,7 +336,7 @@ const [isOpen, setIsOpen] = useState(false);
                 <div className="sol-card-image">
                   <model-viewer
                     className="model-viewer"
-                    src="../../../public/Factory.glb"
+                    src="/Factory.glb"
                     loading="eager"
                     style={{
                       width: "13vw",

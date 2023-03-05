@@ -57,18 +57,6 @@ const PreColonial = () => {
               modelRef.current = ref;
             }}
           >
-            {/* <button onClick={() => setIsOpen(true)} class="Hotspot" slot="hotspot-2" data-surface="115 0 7 9 16 0.163 0.212 0.624" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">
-          House
-        </div>
-    </button>
-  
-    
-    <button class="Hotspot" slot="hotspot-3" data-surface="147 0 873 886 356 0.084 0.119 0.798" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Top</div>
-    </button><button class="Hotspot" slot="hotspot-4" data-surface="154 0 411 407 404 0.529 0.148 0.324" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Grass</div>
-    </button> */}
           </model-viewer>
 
           
