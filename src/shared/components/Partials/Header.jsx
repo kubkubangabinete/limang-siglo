@@ -94,7 +94,7 @@ const Header = () => {
             <div className='about-website'>
               <h1 className='header-title'>about 5Siglo</h1>
               <p>
-                5Siglo, pronounced as Limang Siglo, is an interactive
+                6Siglo, pronounced as Limang Siglo, is an interactive
                 web primer primarily focused on the conditions of the
                 Filipino peasantry before and throughout the 500 years
                 of colonialism and resistance in the Philippines.
