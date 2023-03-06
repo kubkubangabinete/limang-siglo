@@ -60,7 +60,7 @@ const Plight = () => {
         </div>
         <div className="plight-slides-item plight-slide-3" id="plight-slide-3" aria-label="slide 3 of 10" tabIndex="0">
         <div className="plight-card-image">
-                <img className="plight-card-image-img" src={sampleLandscape}/>
+                <img className="plight-card-image-img" src="https://media.giphy.com/media/uzrHKx47ihF4lQb0aC/giphy.gif"/>
             </div>
             <div className="plight-card-modal-container">
             <div className="plight-card-modal-p-container">
@@ -76,7 +76,7 @@ const Plight = () => {
         </div>
         <div className="plight-slides-item plight-slide-4" id="plight-slide-4" aria-label="slide 4 of 10" tabIndex="0">
         <div className="plight-card-image">
-                <img className="plight-card-image-img" src={sampleLandscape}/>
+                <img className="plight-card-image-img" src="https://media.giphy.com/media/GzSaTt5YK9xGw6aVy1/giphy.gif"/>
             </div>
             <div className="plight-card-modal-container">
             <div className="plight-card-modal-p-container">
@@ -137,7 +137,7 @@ const Plight = () => {
         </div>
         <div className="plight-slides-item plight-slide-9" id="plight-slide-9" aria-label="slide 9 of 10" tabIndex="0">
         <div className="plight-card-image">
-                <img className="plight-card-image-img" src={sampleLandscape}/>
+                <img className="plight-card-image-img" src="https://media.giphy.com/media/fhEYRG1rkFIC3AMfgI/giphy.gif"/>
             </div>
             <div className="plight-card-modal-container">
             <div className="plight-card-modal-p-container">
@@ -150,7 +150,7 @@ const Plight = () => {
         </div>
         <div className="plight-slides-item plight-slide-10" id="plight-slide-10" aria-label="slide 10 of 10" tabIndex="0">
         <div className="plight-card-image">
-                <img className="plight-card-image-img" src={sampleLandscape}/>
+                <img className="plight-card-image-img" src="https://media.giphy.com/media/lmKisCsdqmyZHhviNK/giphy.gif"/>
             </div>
             <div className="plight-card-modal-container">
             <div className="plight-card-modal-p-container">

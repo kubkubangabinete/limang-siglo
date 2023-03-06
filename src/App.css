@@ -220,7 +220,7 @@ ul {
     top: 50%;
     opacity: 0;
     left: 50%;
-    font-size: 1rem;
+    font-size: 0.8rem;
     transform: translate(-50%,-70%);
     text-align: left;
     z-index: 1500;
@@ -366,7 +366,7 @@ ul {
 .chapters-btn {
     color: white;
     border: none;
-    font-size: medium;
+    font-size: 1rem;
     font-weight: 400;
     cursor: pointer;
     margin-left: 1.5rem;
@@ -476,7 +476,7 @@ ul {
 }
 
 .ntbk-topic {
-    font-size: 4vh;
+    font-size: 1.3rem;
     font-weight: 600;
     margin: 0 0 0 5vh;
     padding: 0 0 0 0;
@@ -484,7 +484,7 @@ ul {
 
 .ntbk-title {
     font-weight: 600;
-    font-size: 2vh;
+    font-size: 0.8rem;
     margin-bottom: 1.5vh;
     margin-top: -2vh;
     color: #31302F;
@@ -504,7 +504,7 @@ ul {
 }
 
 .ntbk-container p {
-    font-size: 2vh;
+    font-size: 0.8rem;
 }
 
 
@@ -574,7 +574,6 @@ ul {
 
         position: absolute;
         color: white;
-        font-size: 24px;
         font-weight: bold;
         left: 0;
         right: 0;
@@ -601,7 +600,7 @@ ul {
         font-family: 'Playfair Display', serif;
         font-weight: 800;
         
-        font-size: 5vh;}
+        font-size: 1.5rem;}
     
     .page-header-subtitle {
         background-color: transparent;
@@ -609,7 +608,7 @@ ul {
         color: rgba(247, 247, 247, 0.805);
         font-family: 'Playfair Display', serif;
         font-weight: 100;
-        font-size: 3vh;}
+        font-size: 0.8rem;}
 
 .spanish-1,
 .spanish-2,
@@ -665,7 +664,7 @@ ul {
 
 .spanish-card-title {
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 0.8rem;
     font-weight: 500;
     padding: 1vh;
     border-radius: 0 0 1.5vh 1.5vh;
@@ -703,7 +702,7 @@ ul {
 
 .spanish-card-modal-h3 {
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 1.5vh;
     margin-top: 1vh;
     color: #eec627;
@@ -964,7 +963,7 @@ ul {
 
 .pres-card-title {
     text-align: center;
-    font-size: 1.2vw;
+    font-size: .8rem;
     font-weight: 500;
     padding: 1vh;
     border-radius: 0 0 1.5vh 1.5vh;
@@ -1002,7 +1001,7 @@ ul {
 
 .pres-card-modal-h3 {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 1rem;
     margin-bottom: 1.5vh;
     margin-top: 1vh;
     color: #eec627;
@@ -1369,7 +1368,7 @@ ul {
         transition: 0.4s;}
 
     .plight-card-modal-p {
-        font-size: 2vh;}
+        font-size: 0.8rem;}
 
 /*  */
 /*  */
@@ -1643,7 +1642,6 @@ ul {
     border-radius: 10px;
     display: flex;
     flex-shrink: 0;
-    font-size: 100px;
     position: relative;
     scroll-snap-align: start;
     transform: scale(1);
@@ -1905,7 +1903,7 @@ position: relative;
 
 .american-card-title {
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 0.8rem;
     font-weight: 500;
     padding: 1vh;
     border-radius: 0 0 1.5vh 1.5vh;
@@ -1943,7 +1941,7 @@ position: relative;
 
 .american-card-modal-h3 {
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 1.5vh;
     margin-top: 1vh;
     color: #eec627;
@@ -2147,7 +2145,7 @@ position: relative;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2.5vh;
+    font-size: 0.8rem;
     margin: 1vh;
     border-radius: 10vh; 
     cursor: pointer;
@@ -2168,12 +2166,12 @@ position: relative;
 .back-btn {
     
     position: absolute;
-    bottom:0;
+    bottom: 0.5rem;
     right: 0;
 
     
  
-    font-size: medium;
+    font-size: 0.8rem;
     font-weight: 400;
     cursor: pointer;
   
@@ -2206,7 +2204,6 @@ position: relative;
 
     position: absolute;
     color: white;
-    font-size: 24px;
     font-weight: bold;
     left: 0;
     right: 0;
@@ -2328,7 +2325,7 @@ vertical-align: middle;
     transition: 0.4s;}
 
 .rice-card-modal-p {
-    font-size: 2vh;
+    font-size: 0.8rem;
     animation: fadedown 1.2s ease-in-out;}
 
 /* Chapter 2: prec */
@@ -2358,7 +2355,7 @@ vertical-align: middle;
     color: white;
     display: inline-flex;
     height: 2.5vw;
-    font-size: 1.5vw;
+    font-size: 0.8rem;
     justify-content: center;
 
     margin: 1vw;
@@ -2535,14 +2532,14 @@ vertical-align: middle;
     
 .sol-modal-h2 {
     font-weight: 600;
-    font-size: 3.5vh;
+    font-size: 1.3rem;
     color: #eec627;
     animation: fadedown 0.9s ease-in-out;
     transition: 0.4s;}
 
 .sol-modal-h3 {
     font-weight: 300;
-    font-size: 2.5vh;
+    font-size: 1rem;
     margin-bottom: 1.5vh;
 
     color: #eec627;
@@ -2550,7 +2547,7 @@ vertical-align: middle;
     transition: 0.6s;}
     
 .sol-modal-p {
-    font-size: 2vh;
+    font-size: 0.8rem;
     animation: fadedown 1.2s ease-in-out;}
 
 
@@ -2630,14 +2627,14 @@ vertical-align: middle;
     
 .farm-dialogue-h2 {
     font-weight: 600;
-    font-size: 3.5vh;
+    font-size: 1.3rem;
     color: #eec627;
     animation: fadedown 0.9s ease-in-out;
     transition: 0.4s;}
 
 .farm-dialogue-h3 {
     font-weight: 300;
-    font-size: 2.5vh;
+    font-size: 1rem;
     margin-bottom: 1.5vh;
 
     color: #eec627;
@@ -2645,7 +2642,7 @@ vertical-align: middle;
     transition: 0.6s;}
     
 .farm-dialogue-p {
-    font-size: 2vh;
+    font-size: 0.8rem;
     animation: fadedown 1.2s ease-in-out;}
 
 /* Chapter 1 Bubble Heads */
@@ -2731,7 +2728,7 @@ vertical-align: middle;
     
 .dialogue-modal-h2 {
     font-weight: 600;
-    font-size: 2vh;
+    font-size: 0.8rem;
     color: #eec627;
     animation: fadedown 0.9s ease-in-out;
     transition: 0.4s;
@@ -2739,7 +2736,7 @@ vertical-align: middle;
     text-align: left;}
     
 .dialogue-modal-p {
-    font-size: 2vh;
+    font-size: 0.8rem;
     }
 
 .dialogue-half-char-container {

@@ -35,7 +35,7 @@ const Spanish = () => {
         <label htmlFor="spanish-card-checkbox-toggle-1" className="spanish-1">
             <div className="spanish-card-btn">
                 <div className="spanish-card-image">
-                    <img className="spanish-card-image-img" src="https://media.giphy.com/media/5d2asroGbMtmpa3kKe/giphy.gif"/>
+                    <img className="spanish-card-image-img" src="https://media.giphy.com/media/9lHqRf3Oi8Vv83oZqK/giphy.gif"/>
                 </div>
                 <div className="spanish-card-title">
                     <div className="spanish-card-p">Regalian Doctrine</div>
@@ -81,7 +81,7 @@ const Spanish = () => {
         <label htmlFor="spanish-card-checkbox-toggle-3" className="spanish-3">
             <div className="spanish-card-btn">
                 <div className="spanish-card-image">
-                    <img className="spanish-card-image-img" src={sampleSpanish}/>
+                    <img className="spanish-card-image-img" src="https://media.giphy.com/media/zFSzW8Ko1YISqmoOkY/giphy.gif"/>
                 </div>
                 <div className="spanish-card-title">
                     <div className="spanish-card-p">Hacienda System</div>
@@ -104,7 +104,7 @@ const Spanish = () => {
         <label htmlFor="spanish-card-checkbox-toggle-4" className="spanish-4">
             <div className="spanish-card-btn">
                 <div className="spanish-card-image">
-                    <img className="spanish-card-image-img" src={sampleSpanish}/>
+                    <img className="spanish-card-image-img" src="https://media.giphy.com/media/Rlk16e2c76QoLvU8Hh/giphy.gif"/>
                 </div>
                 <div className="spanish-card-title">
                     <div className="spanish-card-p">Mandatory Taxation</div>

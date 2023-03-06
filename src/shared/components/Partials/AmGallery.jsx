@@ -33,7 +33,7 @@ const American = () => {
         <label htmlFor="american-card-checkbox-toggle-1" className="american-1">
             <div className="american-card-btn">
                 <div className="american-card-image">
-                    <img className="american-card-image-img" src={sampleSpanish}/>
+                    <img className="american-card-image-img" src="https://media.giphy.com/media/DHuCILVdIvofvSPIi7/giphy.gif"/>
                 </div>
                 <div className="american-card-title">
                     <div className="american-card-p">Hacienda Expansion</div>
@@ -56,7 +56,7 @@ const American = () => {
         <label htmlFor="american-card-checkbox-toggle-2" className="american-2">
             <div className="american-card-btn">
                 <div className="american-card-image">
-                    <img className="american-card-image-img" src={sampleSpanish}/>
+                    <img className="american-card-image-img" src="https://media.giphy.com/media/Iemzt229PtS49xD2uU/giphy.gif"/>
                 </div>
                 <div className="american-card-title">
                     <div className="american-card-p">Anti-Peasant Laws</div>
