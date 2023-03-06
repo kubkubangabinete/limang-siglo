@@ -4,7 +4,10 @@ import { useGLTF } from "@react-three/drei";
 export default function RiceTerraces(props) {
   const { nodes, materials } = useGLTF("/rice-terraces.glb");
   return (
-    <group {...props} dispose={null}>
+    <group {...props} dispose={null}
+    position={[-0.3,0,0]}
+          rotation={[0, 0.6, 0]}
+          scale={0.6}>
       <mesh
         castShadow
         receiveShadow
