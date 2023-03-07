@@ -19,8 +19,11 @@ const ChapterIPage = () => {
   const modelRef = React.useRef();
   return (
     <div className="farm-vid-container">
-      <video autoPlay muted loop playsInline id="farmvid">
-        <source src={farmvid} type="video/webm" />
+      <video autoPlay="true"
+  loop="true"
+  muted="true"
+  playsInline="true" id="farmvid">
+        <source src={farmvid} type="video/webm" codecs='"vp8, vorbis"'/>
       </video>
 
       <div className="prec-1 chii-z">
