@@ -20,23 +20,14 @@ const ChapterIPage = () => {
   return (
     <div className="farm-vid-container">
       <video
-        loop={true}
-        playsInline={true}
-        muted={true}
-        autoPlay={true}
-        id="farmvid"
-        webkit-playsinline={true}
-        preload={true}
+        muted
+        autoPlay
+        src={farmvid}
+        loop
+        playsInline
+        webkit-playsinline
+        preload
       >
-        <source
-          src={farmvid}
-          type="video/webm"
-          autoPlay={true}
-          muted={true}
-          loop
-          alt="Your device is not compatible with this video."
-        />
-        <source src={farmvid.replace(".webm", ".mp4")} type="video/mp4" />
       </video>
 
       <div className="prec-1 chii-z">
