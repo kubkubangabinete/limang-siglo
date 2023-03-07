@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import farmvid from "../../assets/vids/Chapter-1.mp4";
+import farmvid from "../../assets/vids/Chapter-1.webm";
 import Ch1D1 from "../../shared/components/Partials/Ch1Dialogue1";
 import Ch1D2 from "../../shared/components/Partials/Ch1Dialogue2";
 import Ch1D3 from "../../shared/components/Partials/Ch1Dialogue3";
@@ -19,8 +19,8 @@ const ChapterIPage = () => {
   const modelRef = React.useRef();
   return (
     <div className="farm-vid-container">
-      <video autoPlay muted loop id="farmvid">
-        <source src={farmvid} type="video/mp4" />
+      <video autoPlay muted loop playsinline id="farmvid">
+        <source src={farmvid} type="video/webm" />
       </video>
 
       <div className="prec-1 chii-z">
