@@ -19,10 +19,7 @@ const ChapterIPage = () => {
   const modelRef = React.useRef();
   return (
     <div className="farm-vid-container">
-      <video autoPlay="true"
-  loop="true"
-  muted="true"
-  playsInline="true" id="farmvid">
+      <video autoPlay loop id="farmvid">
         <source src={farmvid} type="video/mp4"/>
       </video>
 
