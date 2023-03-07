@@ -10,6 +10,7 @@ import HeadMan1 from "../../assets/Head_Man-1.png";
 import HeadMan2 from "../../assets/Head_Man-2.png";
 import Ch1Info from "../../shared/components/Partials/Ch1Info";
 
+
 const ChapterIPage = () => {
   const [isOpen1, setIsOpen1] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
@@ -20,13 +21,12 @@ const ChapterIPage = () => {
   return (
     <div className="farm-vid-container">
         <video  
-          loop
-          muted
-          autoPlay
-          playsInline
-          id="farmvid"
-          src={farmvid}
-        />
+          loop={true} playsInline={true} muted={true} autoPlay={true}
+          id="farmvid" webkit-playsinline={true} preload={true}>
+          <source src={farmvid} type="video/webm" autoPlay={true} 
+            muted={true} 
+            loop  alt='Your device is not compatible with this video.' />
+        </video>
 
       <div className="prec-1 chii-z">
         <h1 className="page-header-title">
