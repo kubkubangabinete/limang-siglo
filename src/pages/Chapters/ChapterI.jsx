@@ -23,7 +23,7 @@ const ChapterIPage = () => {
   loop="true"
   muted="true"
   playsInline="true" id="farmvid">
-        <source src={farmvid} type="video/webm" codecs='"vp8, vorbis"'/>
+        <source src={farmvid} type="video/mp4"/>
       </video>
 
       <div className="prec-1 chii-z">
