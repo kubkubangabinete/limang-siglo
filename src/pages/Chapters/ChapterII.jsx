@@ -11,8 +11,8 @@ const ChapterIIPage = () => {
   return (
     <div>
       <div className="chapter-two-nav">
-        <div className="prec-1 chii-z">
-          <h1 className="page-header-title">
+        <div className="chii-text-wrapper">
+          <h1 className="page-header-title chii-text-wrapper">
             chapter2
             <sup>
               <button className="about-ch" onClick={() => setIsOpen(true)}>

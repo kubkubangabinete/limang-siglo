@@ -89,7 +89,7 @@ const Plight = () => {
         </div>
         <div className="plight-slides-item plight-slide-5" id="plight-slide-5" aria-label="slide 5 of 10" tabIndex="0">
         <div className="plight-card-image">
-                <img className="plight-card-image-img" src={sampleLandscape}/>
+                <img className="plight-card-image-img" src="https://media.giphy.com/media/Xev9ybCo8Nlo5QrxOs/giphy.gif"/>
             </div>
             <div className="plight-card-modal-container">
             <div className="plight-card-modal-p-container">

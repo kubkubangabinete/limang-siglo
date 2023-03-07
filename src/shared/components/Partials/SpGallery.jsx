@@ -58,7 +58,7 @@ const Spanish = () => {
         <label htmlFor="spanish-card-checkbox-toggle-2" className="spanish-2">
             <div className="spanish-card-btn">
                 <div className="spanish-card-image">
-                    <img className="spanish-card-image-img" src="https://media.giphy.com/media/t90nGm0p45wo98Mm0K/giphy.gif"/>
+                    <img className="spanish-card-image-img" src="https://media.giphy.com/media/TscfGyVBG1mJPRrkDl/giphy.gif"/>
                 </div>
                 <div className="spanish-card-title">
                     <div className="spanish-card-p">Encomienda System</div>

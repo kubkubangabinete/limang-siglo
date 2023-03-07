@@ -78,7 +78,7 @@ const PreColonial2 = () => {
     <label htmlFor="dev-card-checkbox-toggle-7" className="dev-7">
         <div className="dev-card-btn">
             <div className="dev-card-image">
-                <img className="dev-card-image-img" src="https://media.giphy.com/media/JpqOl1Csvud9KxulDF/giphy.gif"/>
+                <img className="dev-card-image-img" src="https://media.giphy.com/media/uDBZo21lUHM2m8H3Ii/giphy.gif"/>
             </div>
         </div>        
     </label>
@@ -86,7 +86,7 @@ const PreColonial2 = () => {
     <label htmlFor="dev-card-checkbox-toggle-8" className="dev-8">
         <div className="dev-card-btn">
             <div className="dev-card-image">
-                <img className="dev-card-image-img" src="https://media.giphy.com/media/QDiCk4CJioqaBMWFas/giphy.gif"/>
+                <img className="dev-card-image-img" src="https://media.giphy.com/media/R6YfJusrNT87SkBoDy/giphy.gif"/>
             </div>
         </div>
     </label>
@@ -94,7 +94,7 @@ const PreColonial2 = () => {
     <label htmlFor="dev-card-checkbox-toggle-9" className="dev-9">
         <div className="dev-card-btn">
             <div className="dev-card-image">
-                <img className="dev-card-image-img" src="https://media.giphy.com/media/QDiCk4CJioqaBMWFas/giphy.gif"/>
+                <img className="dev-card-image-img" src="https://media.giphy.com/media/mw5BNeF0Gwnm58KpLI/giphy.gif"/>
             </div>
         </div>
     </label>

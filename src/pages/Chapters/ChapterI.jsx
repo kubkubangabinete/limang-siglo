@@ -22,19 +22,18 @@ const ChapterIPage = () => {
       <video autoPlay muted loop id="farmvid">
         <source src={farmvid} type="video/mp4" />
       </video>
-      
-<div className="prec-1 chii-z">
-          <h1 className="page-header-title">
-            chapter1
-            <sup>
-              <button className="about-ch" onClick={() => setIsOpen(true)}>
-                ?
-              </button>
-            </sup>
-          </h1>
-          <Ch1Info open={isOpen} onClose={() => setIsOpen(false)} />
-        </div>
 
+      <div className="prec-1 chii-z">
+        <h1 className="page-header-title">
+          chapter1
+          <sup>
+            <button className="about-ch" onClick={() => setIsOpen(true)}>
+              ?
+            </button>
+          </sup>
+        </h1>
+        <Ch1Info open={isOpen} onClose={() => setIsOpen(false)} />
+      </div>
 
       <div className="farm-heads-container">
         <button className="farm-head-icon" onClick={() => setIsOpen1(true)}>
@@ -53,7 +52,6 @@ const ChapterIPage = () => {
         <Ch1D2 open={isOpen2} onClose={() => setIsOpen2(false)} />
         <Ch1D3 open={isOpen3} onClose={() => setIsOpen3(false)} />
       </div>
-
     </div>
   );
 };

@@ -42,18 +42,20 @@ export default function Ch1Info({ open, onClose }) {
               Introduction
               </h3>
               <p className="sol-modal-p">
-                There hasn't been any agrarian reform policies that truly
-                aims to answer the demand of Filipino farmers, which are
-                free land distribution and social justice. Having said that, 
-                the Genuine Agrarian Reform Program (GARB) will implement these two,
-                addressing landlessness and rural poverty.
-            </p>
-            <p className="sol-modal-p">
-                With this bill, if passed, it will break up the monopoly 
-                of a few landowners and foreign control of agricultural lands, 
-                eliminate all forms of oppression and exploitation in the countryside, 
-                and pave the way for social justice.
-              </p>
+                Have you met any peasants here in the Philippines?
+                </p>
+                <p className="sol-modal-p">
+                This chapter helps us answer and reflect on 
+                questions that commonly confuse some people
+                -- Who are the peasants exactly? Where are they situated?
+                What makes a peasant... a peasant?
+                </p>
+                <p className="sol-modal-p">
+                <i>
+                  To know more, open the Chapter Guide found on the top-right
+                  of your screen. 
+                </i>
+                </p>
             </div>
           </div>
       </div>

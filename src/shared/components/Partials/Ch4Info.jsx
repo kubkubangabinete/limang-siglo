@@ -49,11 +49,11 @@ export default function Ch4Info({ open, onClose }) {
                 addressing landlessness and rural poverty.
             </p>
             <p className="sol-modal-p">
-                With this bill, if passed, it will break up the monopoly 
-                of a few landowners and foreign control of agricultural lands, 
-                eliminate all forms of oppression and exploitation in the countryside, 
-                and pave the way for social justice.
-              </p>
+                <i>
+                  To know more, open the Chapter Guide found on the top-right
+                  of your screen. 
+                </i>
+                </p>
             </div>
           </div>
       </div>

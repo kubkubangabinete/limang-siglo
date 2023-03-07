@@ -42,18 +42,18 @@ export default function Ch2Info({ open, onClose }) {
               History of the Peasant Struggle
               </h3>
               <p className="sol-modal-p">
-                There hasn't been any agrarian reform policies that truly
-                aims to answer the demand of Filipino farmers, which are
-                free land distribution and social justice. Having said that, 
-                the Genuine Agrarian Reform Program (GARB) will implement these two,
-                addressing landlessness and rural poverty.
+                Chapter 2 illustrates the history of the 
+                peasant struggle. This contains four sub-chapters:
+                Pre-Colonial Period, Spanish Colonization Period,
+                American Colonization Period, and the Present
+                Republic of the Philippines.
             </p>
             <p className="sol-modal-p">
-                With this bill, if passed, it will break up the monopoly 
-                of a few landowners and foreign control of agricultural lands, 
-                eliminate all forms of oppression and exploitation in the countryside, 
-                and pave the way for social justice.
-              </p>
+                <i>
+                  To know more, open the Chapter Guide found on the top-right
+                  of your screen. 
+                </i>
+                </p>
             </div>
           </div>
       </div>

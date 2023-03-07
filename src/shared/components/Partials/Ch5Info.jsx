@@ -54,6 +54,12 @@ export default function Ch5Info({ open, onClose }) {
                 eliminate all forms of oppression and exploitation in the countryside, 
                 and pave the way for social justice.
               </p>
+              <p className="sol-modal-p">
+                <i>
+                  To know more, open the Chapter Guide found on the top-right
+                  of your screen. 
+                </i>
+                </p>
             </div>
           </div>
       </div>
