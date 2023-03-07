@@ -19,9 +19,15 @@ const ChapterIPage = () => {
   const modelRef = React.useRef();
   return (
     <div className="farm-vid-container">
-      <video autoPlay muted loop id="farmvid">
-        <source src={farmvid} type="video/mp4"/>
-      </video>
+      <div>
+        <video  autoPlay={true} 
+    loop={true}
+    controls={false} 
+    playsInline
+    muted  id="farmvid">
+          <source src={farmvid} type="video/mp4"/>
+        </video>
+      </div>
 
       <div className="prec-1 chii-z">
         <h1 className="page-header-title">
