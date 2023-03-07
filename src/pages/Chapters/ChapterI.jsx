@@ -26,6 +26,7 @@ const ChapterIPage = () => {
             <source src={farmvid} type="video/webm" autoPlay={true}
               muted={true}
               loop  alt='Your device is not compatible with this video.' />
+              <source src={farmvid.replace('.webm', '.mp4')} type="video/mp4" />
           </video>
 
       <div className="prec-1 chii-z">
