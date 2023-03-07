@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import farmvid from "../../assets/vids/Chapter-1.webm";
+import farmpic from "../../assets/vids/Chapter-1.png";
 import Ch1D1 from "../../shared/components/Partials/Ch1Dialogue1";
 import Ch1D2 from "../../shared/components/Partials/Ch1Dialogue2";
 import Ch1D3 from "../../shared/components/Partials/Ch1Dialogue3";
@@ -20,13 +21,14 @@ const ChapterIPage = () => {
   const modelRef = React.useRef();
   return (
     <div className="farm-vid-container">
-        <video  
-          loop={true} playsInline={true} muted={true} autoPlay={true}
-          id="farmvid" webkit-playsinline={true} preload={true}>
-          <source src={farmvid} type="video/webm" autoPlay={true} 
-            muted={true} 
-            loop  alt='Your device is not compatible with this video.' />
-        </video>
+          <video
+            loop={true} playsInline={true} muted={true} autoPlay={true}
+            id="farmvid" webkit-playsinline={true} preload={true}>
+            <source src={farmvid} type="video/webm" autoPlay={true}
+              muted={true}
+              loop  alt='Your device is not compatible with this video.' />
+               <img src={farmpic}/>
+          </video>
 
       <div className="prec-1 chii-z">
         <h1 className="page-header-title">

@@ -41,10 +41,7 @@ const Roots = () => {
                 <div className="spanish-card-modal-p-container">
                     <h2 className="spanish-card-modal-h3">Imperialism</h2>
                     <p>
-                        Imperialism is the monopoly of a weaker nation’s economy, politics, and culture, where they are controlled and concentrated in the hands of a few big capitalists. They hold the markets, source of raw materials, modern technology, and skilled labor. They have influence on the dictation of laws and policies, and also on the size of production, price, and lending.
-                    </p>
-                    <p>
-                       Rich and powerful nations have been interested in third world countries like the Philippines as a source of cheap raw materials, cheap labor, and a market for their surplus goods and capital. Imperialism prevents peasants from attaining food security, food sovereignty, and from their rights to safe, healthy and ecologically sustainable production.
+                    Imperialism has led to the domination of the economy, politics, and culture of weaker nations by a few big capitalists. This has resulted in the concentration of wealth and power in the hands of a few, who control the markets, source of raw materials, modern technology, and skilled labor. As a result, the Filipino peasantry has been prevented from attaining food security, food sovereignty, and from their rights to safe, healthy, and ecologically sustainable production. The rich and powerful nations have been interested in the country as a source of cheap raw materials, cheap labor, and a market for their surplus goods and capital. This has had a negative impact on the Filipino peasantry, who have been left to face the consequences of imperialism. 
                     </p>
                 </div>
             </div>
@@ -67,7 +64,7 @@ const Roots = () => {
                 <div className="spanish-card-modal-p-container">
                     <h2 className="spanish-card-modal-h3">Feudalism</h2>
                     <p>
-                    Feudalism is the oppression against peasants by landlords. Here, agricultural lands are monopolized by a few landlords and vast tracts of land are tilled by the peasantry who face landlessness and food insecurity. Exploitation is intensified through high land rent and high interest and loan rates, slavery, cheap labor and products, and backward method of farming.
+                    Feudalism is another issue that has affected the material conditions of the Filipino peasantry. In this system, agricultural lands are monopolized by a few landlords, leaving vast tracts of land to be tilled by the peasantry. This system has led to landlessness and food insecurity for the Filipino peasantry, who face exploitation through high land rent and high-interest and loan rates, slavery, cheap labor and products, and backward farming methods. This has resulted in an unequal distribution of wealth and power, with the Filipino peasantry being left behind.
                     </p>
                 </div>
             </div>
@@ -90,7 +87,7 @@ const Roots = () => {
                 <div className="spanish-card-modal-p-container">
                     <h2 className="spanish-card-modal-h3">Bureaucrat-Capitalism</h2>
                     <p>
-                    Bureaucrat capitalism is operating on the government as a business and for the enrichment of those sitting in power. Most top bureaucrats are in national, provincial, and municipal governments.The bureaucrat capitalists direct the operation of the reactionary state. They wield political power to serve imperialists, landlords, and the large comprador bourgeoisie. At the same time, they are harnessing their position to loot from the people’s money and expand land ownership and their own businesses.                
+                    Bureaucrat-capitalism is a phenomenon where the government operates as a business and enriches those sitting in power. Most top bureaucrats are in national, provincial, and municipal governments. The bureaucrat capitalists direct the operation of the reactionary state, wielding political power to serve imperialists, landlords, and the large comprador bourgeoisie. They also harness their position to loot from the people's money and expand land ownership and their businesses. This has led to the concentration of power and wealth in the hands of a few, further exacerbating the already prevalent issues of imperialism and feudalism.                
                     </p>
                 </div>
                     

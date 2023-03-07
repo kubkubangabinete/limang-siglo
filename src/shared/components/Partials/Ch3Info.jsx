@@ -43,7 +43,7 @@ export default function Ch3Info({ open, onClose }) {
               </h3>
               <p className="sol-modal-p">
                 Chapter 3 contains a short list of the many ways
-                the Filipino peasantry is being disenfranchised.
+                the Filipino peasantry is being disenfranchised. These challenges perpetuate a cycle of poverty, making it difficult for the peasantry to assert their rights to land ownership and improve their livelihoods.
             </p>
             <p className="sol-modal-p">
                 <i>

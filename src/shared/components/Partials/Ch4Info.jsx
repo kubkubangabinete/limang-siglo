@@ -42,9 +42,7 @@ export default function Ch4Info({ open, onClose }) {
               Roots of the Problems
               </h3>
               <p className="sol-modal-p">
-                In this chapter, three basic problems that the peasantry
-                face are presented — namely, imperialism, feudalism, and
-                bureaucrat-capitalism.
+              Imperialism, feudalism, and bureaucrat-capitalism have all had significant impacts on the material conditions of the Filipino peasantry. These issues have led to an unequal distribution of wealth and power, leaving the Filipino peasantry to face the negative consequences. Addressing these issues is essential to promote a fairer and more just society for all.
             </p>
             <p className="sol-modal-p">
                 <i>

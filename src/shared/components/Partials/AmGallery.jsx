@@ -92,7 +92,7 @@ const American = () => {
                 <div className="american-card-modal-p-container">
                     <h2 className="american-card-modal-h3">US Market Expansion</h2>
                     <p>
-						To spread their influence, imports of American commodities were advertised and sold in the motherland. They  also sought the Philippines as a market for their surplus goods, which crushed local handicrafts and manufacturers, resorting the Filipinos to buy these overpriced finished goods instead of manufacturing them – leaving them to become dependent on importing expensive goods and exporting cheap ones.                    </p>
+						To spread their influence, imports of American commodities were advertised and sold in the motherland. They  also sought the Philippines as a market for their surplus goods, which crushed local handicrafts and manufacturers, resorting the Filipinos to buy these overpriced finished goods instead of manufacturing them – leaving them to become dependent on importing expensive goods and exporting cheap ones.</p>
                 </div>
             </div>
             </div>
