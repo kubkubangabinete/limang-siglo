@@ -42,11 +42,9 @@ export default function Ch4Info({ open, onClose }) {
               Roots of the Problems
               </h3>
               <p className="sol-modal-p">
-                There hasn't been any agrarian reform policies that truly
-                aims to answer the demand of Filipino farmers, which are
-                free land distribution and social justice. Having said that, 
-                the Genuine Agrarian Reform Program (GARB) will implement these two,
-                addressing landlessness and rural poverty.
+                In this chapter, three basic problems that the peasantry
+                face are presented — namely, imperialism, feudalism, and
+                bureaucrat-capitalism.
             </p>
             <p className="sol-modal-p">
                 <i>

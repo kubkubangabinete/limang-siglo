@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import farmvid from "../../assets/vids/Chapter-1.webm";
+import farmvid from "../../assets/vids/Chapter-1.mp4";
 import Ch1D1 from "../../shared/components/Partials/Ch1Dialogue1";
 import Ch1D2 from "../../shared/components/Partials/Ch1Dialogue2";
 import Ch1D3 from "../../shared/components/Partials/Ch1Dialogue3";
