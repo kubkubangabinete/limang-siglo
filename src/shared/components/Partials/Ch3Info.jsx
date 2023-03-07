@@ -47,7 +47,7 @@ export default function Ch3Info({ open, onClose }) {
             </p>
             <p className="sol-modal-p">
                 <i>
-                  To know more, open the Chapter Guide found on the top-right
+                  To know more, open the Chapter Guide found at the top-right
                   of your screen. 
                 </i>
                 </p>

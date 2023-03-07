@@ -2525,6 +2525,7 @@ vertical-align: middle;
     top: 30%;
     left: 24.5%;
     
+    
 
     }
     
@@ -2537,9 +2538,10 @@ vertical-align: middle;
     display: flex;
     height: 30vh;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     text-align: left;
     vertical-align: middle;
+    
     
     }
     
@@ -2548,7 +2550,8 @@ vertical-align: middle;
     font-size: 1.3rem;
     color: #eec627;
     animation: fadedown 0.9s ease-in-out;
-    transition: 0.4s;}
+    transition: 0.4s;
+}
 
 .sol-modal-h3 {
     font-weight: 300;
@@ -2561,7 +2564,8 @@ vertical-align: middle;
     
 .sol-modal-p {
     font-size: 0.8rem;
-    animation: fadedown 1.2s ease-in-out;}
+    animation: fadedown 1.2s ease-in-out;
+}
 
 
 /*  */

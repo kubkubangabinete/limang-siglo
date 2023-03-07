@@ -10,7 +10,6 @@ import HeadMan1 from "../../assets/Head_Man-1.png";
 import HeadMan2 from "../../assets/Head_Man-2.png";
 import Ch1Info from "../../shared/components/Partials/Ch1Info";
 
-
 const ChapterIPage = () => {
   const [isOpen1, setIsOpen1] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
@@ -20,14 +19,25 @@ const ChapterIPage = () => {
   const modelRef = React.useRef();
   return (
     <div className="farm-vid-container">
-          <video
-            loop={true} playsInline={true} muted={true} autoPlay={true}
-            id="farmvid" webkit-playsinline={true} preload={true}>
-            <source src={farmvid} type="video/webm" autoPlay={true}
-              muted={true}
-              loop  alt='Your device is not compatible with this video.' />
-              <source src={farmvid.replace('.webm', '.mp4')} type="video/mp4" />
-          </video>
+      <video
+        loop={true}
+        playsInline={true}
+        muted={true}
+        autoPlay={true}
+        id="farmvid"
+        webkit-playsinline={true}
+        preload={true}
+      >
+        <source
+          src={farmvid}
+          type="video/webm"
+          autoPlay={true}
+          muted={true}
+          loop
+          alt="Your device is not compatible with this video."
+        />
+        <source src={farmvid.replace(".webm", ".mp4")} type="video/mp4" />
+      </video>
 
       <div className="prec-1 chii-z">
         <h1 className="page-header-title">
