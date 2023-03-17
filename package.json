@@ -26,6 +26,7 @@
     "@types/three": "^0.149.0",
     "aos": "^2.3.4",
     "dotenv": "^16.0.3",
+    "firebase": "^9.18.0",
     "framer-motion": "^9.0.2",
     "gltfjsx": "^6.1.4",
     "material-symbols": "^0.4.4",

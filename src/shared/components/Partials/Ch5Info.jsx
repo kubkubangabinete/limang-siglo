@@ -43,7 +43,7 @@ export default function Ch5Info({ open, onClose }) {
               </h3>
               <p className="sol-modal-p">
                 There haven't been any agrarian reform policies that truly
-                aims to answer the demand of Filipino farmers, which are
+                aim to answer the demand of Filipino farmers, which are
                 free land distribution and social justice. Having said that, 
                 the Genuine Agrarian Reform Program (GARB) will implement these two,
                 addressing landlessness and rural poverty.

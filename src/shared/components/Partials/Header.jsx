@@ -9,6 +9,7 @@ import rotateDeviceIcon from "../../../assets/rotate-device.svg";
 import TabsContent from "./TabsContent";
 import umaLogo from "../../../assets/umaLogo.svg";
 import ChaptersContainer from "./ChaptersContainer";
+import FeedbackForm from "./FeedbackForm";
 
 const Header = () => {
   const [checked, setChecked] = useState(false);
@@ -74,7 +75,6 @@ const Header = () => {
           <ChaptersContainer open={isOpen} onClose={() => setIsOpen(false)} />
         </div>
       </div>
-      {/*} <ChapterIPage open={open}/>*/}
       {/* About Button 2 */}
       <div className="about-nav">
         <input type="checkbox" id="about-navi-checkbox-toggle" />
@@ -89,9 +89,9 @@ const Header = () => {
 
         <div className="about-nav-bg">&nbsp;</div>
 
-        <p className="about-nav-list about-scroller">
+        <div className="about-nav-list about-scroller">
           <div className="about-website">
-            <h1 className="header-title">about 5Siglo</h1>
+            <h1 className="header-title about-header-title">about 5Siglo</h1>
             <p>
               5Siglo, pronounced as Limang Siglo, is an interactive web primer
               primarily focused on the conditions of the Filipino peasantry
@@ -108,8 +108,9 @@ const Header = () => {
               src="https://www.youtube.com/embed/BEXl_EdQk1Y?"
               title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; modestbranding"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  modestbranding"
               allowfullscreen
+              className="explainer-video"
             ></iframe>
           </div>
 
@@ -118,7 +119,7 @@ const Header = () => {
               <img src={umaLogo} className="uma-logo" />
             </div>
             <div>
-              <h1 className="header-title">the organization</h1>
+              <h1 className="header-title about-header-title">the organization</h1>
               <p>
                 Unyon ng Manggagawa sa Agrikultura &#40;UMA&#41; or National
                 Federation of Agricultural Workers is the national progressive
@@ -133,7 +134,7 @@ const Header = () => {
           </div>
 
           <div className="about-cta">
-            <h1 className="header-title">call to action</h1>
+            <h1 className="header-title about-header-title">call to action</h1>
             <p>
               In little ways, we can support the Filipino peasant movement's
               struggle for national freedom and democracy. In the celebration of
@@ -152,7 +153,11 @@ const Header = () => {
               #LandToTheTillers #StandWithFarmers
             </p>
           </div>
-        </p>
+
+          <div className="about-feedback">
+            <FeedbackForm />
+          </div>
+        </div>
       </div>{" "}
       {/* about-nav*/}
       {/* Rotate Device */}
