@@ -51,7 +51,7 @@ const tabstyle = {
   padding: '1vw',
   paddingLeft: '2vw',
   paddingRight: '2vw',
-  fontSize: '1.8vh',
+  fontSize: '0.8rem',
     '&.Mui-selected': {
       color: '#FDDE00'},
   indicator: {

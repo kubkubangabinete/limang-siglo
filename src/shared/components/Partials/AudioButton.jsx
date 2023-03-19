@@ -34,4 +34,5 @@ const AudioButton = ({ url }) => {
 };
 
 
-export default AudioButton
+
+export default AudioButton;

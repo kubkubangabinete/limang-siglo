@@ -1,14 +1,16 @@
 import { motion } from "framer-motion";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import farmvid from "../../assets/vids/Chapter-1.webm";
+
 import Ch1D1 from "../../shared/components/Partials/Ch1Dialogue1";
 import Ch1D2 from "../../shared/components/Partials/Ch1Dialogue2";
 import Ch1D3 from "../../shared/components/Partials/Ch1Dialogue3";
+import Ch1Info from "../../shared/components/Partials/Ch1Info";
+
 import HeadWoman1 from "../../assets/Head_Woman-1.png";
 import HeadMan1 from "../../assets/Head_Man-1.png";
 import HeadMan2 from "../../assets/Head_Man-2.png";
-import Ch1Info from "../../shared/components/Partials/Ch1Info";
+import farmvid from "../../assets/vids/Chapter-1.webm";
 
 const ChapterIPage = () => {
   const [isOpen1, setIsOpen1] = useState(false);
@@ -17,6 +19,7 @@ const ChapterIPage = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const modelRef = React.useRef();
+
   return (
     <div className="farm-vid-container">
       <video
@@ -27,8 +30,7 @@ const ChapterIPage = () => {
         playsInline
         webkit-playsinline
         preload
-      >
-      </video>
+      />
 
       <div className="prec-1 chii-z">
         <h1 className="page-header-title">
@@ -44,15 +46,15 @@ const ChapterIPage = () => {
 
       <div className="farm-heads-container">
         <button className="farm-head-icon" onClick={() => setIsOpen1(true)}>
-          <img className="farm-head-img" src={HeadWoman1} />
+          <img className="farm-head-img" src={HeadWoman1} alt="Head Woman 1" />
         </button>
 
         <button className="farm-head-icon" onClick={() => setIsOpen2(true)}>
-          <img className="farm-head-img" src={HeadMan2} />
+          <img className="farm-head-img" src={HeadMan2} alt="Head Man 2" />
         </button>
 
         <button className="farm-head-icon" onClick={() => setIsOpen3(true)}>
-          <img className="farm-head-img" src={HeadMan1} />
+          <img className="farm-head-img" src={HeadMan1} alt="Head Man 1" />
         </button>
 
         <Ch1D1 open={isOpen1} onClose={() => setIsOpen1(false)} />

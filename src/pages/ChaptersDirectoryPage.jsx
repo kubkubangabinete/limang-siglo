@@ -7,7 +7,7 @@ import Flicking, { ViewportSlot } from "@egjs/react-flicking";
 import { Pagination, Perspective, Fade } from "@egjs/flicking-plugins";
 import "@egjs/react-flicking/dist/flicking.css";
 import "@egjs/flicking-plugins/dist/pagination.css";
-import { Link } from 'react-router-dom';
+
 import { motion, AnimatePresence } from "framer-motion";
 
 
