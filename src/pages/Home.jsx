@@ -1,25 +1,40 @@
-import ChapterIPage from './Chapters/ChapterI';
-import { motion } from "framer-motion";
+import React, { useState } from "react";
+import homepage from "../assets/vids/homepage.webm";
+import weblogo from "../assets/web-logo.png";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
-    return (
-      <div>
-        <ChapterIPage/>
-        
-        
-        {/*<div className="drag-toggle-btn">
-          <input type="checkbox" id="drag-checkbox"/>
-          <div className="drag-outer">
-              <div className="drag-inner"></div>
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <div>
+      <div className="farm-vid-container">
+        <video
+          muted
+          autoPlay
+          src={homepage}
+          loop
+          playsInline
+          webkit-playsinline
+          preload
+        />
+
+        <div className="weblogo-container">
+          <img src={weblogo} className="weblogo-image" />
+          <div className="homepage-subtitle">
+            <p>A Filipino Peasant Primer</p>
           </div>
-          <div className="drag-body"></div>
+
+          {/* Drag Controller */}
+          {/* <DraggableSlider /> */}
+
+          {/* Start Button (alt to Drag Controller) */}
+          <Link to="/chapters-directory/chapter-1" style={{ color: "white" }}>
+                <button className="homepage-start-btn">Start</button>
+          </Link>
         </div>
-        
-       <img src={ch1background} className="ch1bg"/>;*/}
       </div>
-  
-    )
-  }
-  
-  export default HomePage
-  
+    </div>
+  );
+};
+
+export default HomePage;

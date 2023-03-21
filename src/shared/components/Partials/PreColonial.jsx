@@ -14,7 +14,7 @@ const PreColonial = () => {
   const modelRef = React.useRef();
   
   return (
-    <div className="dev-carousel ">
+    <div className="chapter-container">
       <div className="prec-1">
         <h1 className="page-header-title">chapter2
         <sup>

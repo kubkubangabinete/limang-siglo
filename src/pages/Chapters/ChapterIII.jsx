@@ -3,7 +3,7 @@ import Plight from '../../shared/components/Partials/PlightGallery';
 
 const ChapterIIIPage = () => {
     return (
-      <div>
+      <div className="chapter-container">
         
         <Plight />
       </div>

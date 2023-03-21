@@ -12,7 +12,7 @@ const Spanish = () => {
   const modelRef = React.useRef();
     return (
 
-<div className="spanish-cards-container"> {/* LABEL + ONCLICK */}
+<div className="chapter-container"> {/* LABEL + ONCLICK */}
 
 
     <div className="spanish-cards-list">

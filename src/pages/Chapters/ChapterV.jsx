@@ -36,12 +36,11 @@ const ChapterVPage = () => {
   const modelRef = React.useRef();
 
   return (
-    <div className="hehe">
-      <div className="dev-cards-container">
+    <div className="chapter-container">
         {" "}
         {/* LABEL + ONCLICK */}
-        <div className="dev-cards-list">
-          <div className="page-header-container">
+        <div className="chapter-five-cards-list">
+          <div className="chapter-five-container">
             <h1 className="page-header-title">
               chapter5
               <sup>
@@ -336,7 +335,7 @@ const ChapterVPage = () => {
             </label>
           </HtmlTooltip>
         </div>
-      </div>
+
     </div>
   );
 };

@@ -2,7 +2,7 @@ import Roots from '../../shared/components/Partials/RootsGallery';
 
 const ChapterIVPage = () => {
     return (
-      <div>
+      <div className="chapter-container">
         
         <Roots />
       </div>

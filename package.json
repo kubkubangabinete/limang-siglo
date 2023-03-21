@@ -42,6 +42,7 @@
     "react-slick": "^0.29.0",
     "react-slideshow-image": "^4.2.1",
     "rehowl": "^0.6.0",
+    "shepherd.js": "^11.0.1",
     "styled-components": "^5.3.6",
     "three": "^0.150.1",
     "use-sound": "^4.0.1"

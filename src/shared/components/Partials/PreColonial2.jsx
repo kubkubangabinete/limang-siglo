@@ -11,7 +11,7 @@ const PreColonial2 = () => {
   return (
 
 
-<div className="dev-cards-container"> {/* LABEL + ONCLICK */}
+<div className="chapter-container"> {/* LABEL + ONCLICK */}
 
 <div className="dev-cards-list">
 <div className="page-header-container">

@@ -9,7 +9,7 @@ const ChapterIIPage = () => {
   const [isOpen, setIsOpen] = useState(false);
   const modelRef = React.useRef();
   return (
-    <div>
+    <div className="chapter-container">
       <div className="chapter-two-nav">
         <div className="chii-text-wrapper">
           <h1 className="page-header-title chii-text-wrapper">

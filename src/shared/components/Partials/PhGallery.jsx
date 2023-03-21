@@ -10,7 +10,7 @@ const Presidents = () => {
   const modelRef = React.useRef();
 
   return (
-    <div className="pres-cards-container">
+    <div className="chapter-container">
       {" "}
       {/* LABEL + ONCLICK */}
       <div className="pres-cards-list ">

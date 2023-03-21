@@ -12,7 +12,7 @@ const American = () => {
 
     return (
 
-<div className="american-cards-container"> {/* LABEL + ONCLICK */}
+<div className="chapter-container"> {/* LABEL + ONCLICK */}
     <div className="american-cards-list">
     <div className="page-header-container">
         <h1 className="page-header-title">chapter2

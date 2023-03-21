@@ -11,6 +11,7 @@ import umaLogo from "../../../assets/umaLogo.svg";
 import ChaptersContainer from "./ChaptersContainer";
 import FeedbackForm from "./FeedbackForm";
 
+
 const Header = () => {
   const [checked, setChecked] = useState(false);
   const [hidden, setHidden] = useState(false);
@@ -20,11 +21,17 @@ const Header = () => {
     <div>
       <div className="nav-header">
         {/* Home Button */}
-        <div className="left-header">
-          <Link to="/">
-            <HomeRoundedIcon className="material-icons home-btn" />
-          </Link>
-        </div>
+        
+        
+          <div className="left-header">
+          
+            <Link to="/">
+            
+                  <HomeRoundedIcon className="material-icons home-btn" />
+                  
+            </Link>
+    
+          </div>
         {/* Hamburger Button */}
         <div className="right-header">
           <input
