@@ -1,25 +1,24 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+import homepage from "/homepage.webm";
 import weblogo from "../assets/web-logo.png";
+import Ch1Info from "../shared/components/Partials/Ch1Info";
+import DraggableSlider from "./DraggableSlider";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
-  const [imageIndex, setImageIndex] = useState(1);
-  
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setImageIndex(index => (index % 250) + 1);
-    }, 100);
-    
-    return () => clearInterval(intervalId);
-  }, []);
-  
-  const imageUrl = `./public/plantPics/${imageIndex.toString().padStart(4, '0')}.webp`;
-
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <div className="plant-vid-container">
-        <img src={imageUrl} alt="farm" />
-      </div>
+      <div className="farm-vid-container">
+        <video
+          muted
+          autoPlay
+          src={homepage}
+          loop
+          playsInline
+          webkit-playsinline
+          preload
+        />
 
         <div className="weblogo-container">
           <img src={weblogo} className="weblogo-image" />
@@ -32,9 +31,12 @@ const HomePage = () => {
 
           {/* Start Button (alt to Drag Controller) */}
           <Link to="/chapters-directory/chapter-1" style={{ color: "white" }}>
+              <div className="home-start-btn-container">
                 <button className="homepage-start-btn">Start</button>
+                </div>
           </Link>
         </div>
+      </div>
     </div>
   );
 };
