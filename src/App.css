@@ -3467,3 +3467,30 @@ user-select: none;
         gap: 1vh 1vw;
     }
 }
+
+
+
+
+/*  */
+
+.farm-vid-container {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .farm-vid-container video {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .farm-vid-container video {
+      height: 100%;
+      min-height: 100%;
+      width: auto;
+    }
+  }
+
+  
