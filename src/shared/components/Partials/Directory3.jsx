@@ -81,7 +81,7 @@ export default function Directory3() {
         <div style={styles.overlay} className="pokpok-overlay">
           <h1 style={styles.overlayh1}>Chapter 3</h1>
           <p style={styles.overlayp}>
-            The Peasant Plight
+            Peasantry's Plight
             <Link
               className="ch-link ch-active"
               to="/chapters-directory/chapter-3"
