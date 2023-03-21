@@ -1,22 +1,25 @@
-import React, { useState } from "react";
-import homepage from "../assets/vids/homepage.webm";
+import React, { useState, useEffect } from "react";
 import weblogo from "../assets/web-logo.png";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [imageIndex, setImageIndex] = useState(1);
+  
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setImageIndex(index => (index % 250) + 1);
+    }, 100);
+    
+    return () => clearInterval(intervalId);
+  }, []);
+  
+  const imageUrl = `./public/plantPics/${imageIndex.toString().padStart(4, '0')}.webp`;
+
   return (
     <div>
-      <div className="farm-vid-container">
-        <video
-          muted
-          autoPlay
-          src={homepage}
-          loop
-          playsInline
-          webkit-playsinline
-          preload
-        />
+      <div className="plant-vid-container">
+        <img src={imageUrl} alt="farm" />
+      </div>
 
         <div className="weblogo-container">
           <img src={weblogo} className="weblogo-image" />
@@ -32,7 +35,6 @@ const HomePage = () => {
                 <button className="homepage-start-btn">Start</button>
           </Link>
         </div>
-      </div>
     </div>
   );
 };
