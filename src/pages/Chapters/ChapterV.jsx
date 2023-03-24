@@ -13,6 +13,7 @@ import Benefits from "../../shared/components/Partials/Ch5_Benefits";
 import PiggyBank from "../../shared/components/Partials/Ch5_PiggyBank";
 import Gear from "../../shared/components/Partials/Ch5_Gear";
 import Factory from "../../shared/components/Partials/Ch5_Factory";
+import Header from "../../shared/components/Partials/Header";
 
 
 
@@ -37,6 +38,7 @@ const ChapterVPage = () => {
 
   return (
     <div className="chapter-container">
+      <Header/>
         {" "}
         {/* LABEL + ONCLICK */}
         <div className="chapter-five-cards-list">

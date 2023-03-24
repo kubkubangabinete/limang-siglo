@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import samplePres from "../../../assets/chii-sample-pres.png";
 import { Link } from "react-router-dom";
 import Ch2Info from "../Partials/Ch2Info";
+import Header from "./Header";
 
 const Presidents = () => {
   const [checked, setChecked] = useState(false);
@@ -11,7 +11,7 @@ const Presidents = () => {
 
   return (
     <div className="chapter-container">
-      {" "}
+    
       {/* LABEL + ONCLICK */}
       <div className="pres-cards-list ">
         <div className="page-header-container">
@@ -57,13 +57,19 @@ const Presidents = () => {
                 <h2 className="pres-card-modal-h3">Pres. Manuel Roxas</h2>
                 <ol>
                   <li>
-                  During his term, agreements with the United States, such as the U.S.-R.P. Treaty of General Relations, Property Act, and Bell Trade Act, allowed US ownership and utilization of the country’s lands, natural resources, and public utilities.
+                    During his term, agreements with the United States, such as
+                    the U.S.-R.P. Treaty of General Relations, Property Act, and
+                    Bell Trade Act, allowed US ownership and utilization of the
+                    country’s lands, natural resources, and public utilities.
                   </li>
                   <li>
-                  Roxas' administration attacked peasant communities who were begging for land reform through military forces, evident in the Maliwalu massacre and Masico massacre.
+                    Roxas' administration attacked peasant communities who were
+                    begging for land reform through military forces, evident in
+                    the Maliwalu massacre and Masico massacre.
                   </li>
                   <li>
-                  Roxas' administration charged peasants for all the unpaid land rent during the recent Philippine-Japanese war.
+                    Roxas' administration charged peasants for all the unpaid
+                    land rent during the recent Philippine-Japanese war.
                   </li>
                 </ol>
               </div>
@@ -90,7 +96,9 @@ const Presidents = () => {
                 <h2 className="pres-card-modal-h3">Pres. Ramon Magsaysay</h2>
                 <ol>
                   <li>
-                  The 1955 Agrarian Reform Law was implemented during his term, but the agrarian program that aimed for land distribution was barely enforced.
+                    The 1955 Agrarian Reform Law was implemented during his
+                    term, but the agrarian program that aimed for land
+                    distribution was barely enforced.
                   </li>
                 </ol>
               </div>
@@ -117,13 +125,19 @@ const Presidents = () => {
                 <h2 className="pres-card-modal-h3">Pres. Diosdado Macapagal</h2>
                 <ol>
                   <li>
-                  The agrarian program that aimed for limiting land ownership of landlords was barely enforced during his term.
+                    The agrarian program that aimed for limiting land ownership
+                    of landlords was barely enforced during his term.
                   </li>
                   <li>
-                  Macapagal's administration also attacked peasant communities who were begging for land reform through military forces, evident in the Maliwalu massacre and Masico massacre.
+                    Macapagal's administration also attacked peasant communities
+                    who were begging for land reform through military forces,
+                    evident in the Maliwalu massacre and Masico massacre.
                   </li>
                   <li>
-                  During his term, land rent was raised, causing the decline of prices of farmers’ agricultural goods, and plantations for export crops were expanded under the 1963 Agrarian Reform Code.
+                    During his term, land rent was raised, causing the decline
+                    of prices of farmers’ agricultural goods, and plantations
+                    for export crops were expanded under the 1963 Agrarian
+                    Reform Code.
                   </li>
                 </ol>
               </div>
@@ -150,13 +164,26 @@ const Presidents = () => {
                 <h2 className="pres-card-modal-h3">Pres. Ferdinand Marcos</h2>
                 <ol>
                   <li>
-                  Rice and corn farms were subjected to land distribution, yet haciendas and plantations devoted to export crops like sugar, copra, bananas, tobacco, and pineapples were exempted. This deprived more than half of farmers of their own lands. This was through the Presidential Decree 2 and 27.
+                    Rice and corn farms were subjected to land distribution, yet
+                    haciendas and plantations devoted to export crops like
+                    sugar, copra, bananas, tobacco, and pineapples were
+                    exempted. This deprived more than half of farmers of their
+                    own lands. This was through the Presidential Decree 2 and
+                    27.
                   </li>
                   <li>
-                  The lands of foreign corporate farms and plantations were expanded, and farms owned by peasants were then acquired by these big businesses instead of acquiring idle, abandoned, or unexploited lands. This raised rural poverty and landlessness through the Green Revolution/Masagana 99.
+                    The lands of foreign corporate farms and plantations were
+                    expanded, and farms owned by peasants were then acquired by
+                    these big businesses instead of acquiring idle, abandoned,
+                    or unexploited lands. This raised rural poverty and
+                    landlessness through the Green Revolution/Masagana 99.
                   </li>
                   <li>
-                  Marcos' administration required farmers to use expensive imported seeds, chemical soil fertilizers, and pesticides. This, along with the ever-increasing prices of farm inputs, buried farmers in debt and pushed them into poverty through the Green Revolution/Masagana 99.
+                    Marcos' administration required farmers to use expensive
+                    imported seeds, chemical soil fertilizers, and pesticides.
+                    This, along with the ever-increasing prices of farm inputs,
+                    buried farmers in debt and pushed them into poverty through
+                    the Green Revolution/Masagana 99.
                   </li>
                 </ol>
               </div>
@@ -183,13 +210,18 @@ const Presidents = () => {
                 <h2 className="pres-card-modal-h3">Pres. Corazon Aquino</h2>
                 <ol>
                   <li>
-                  The Comprehensive Agrarian Reform Program (CARP) was implemented, but the administration’s agrarian program failed to redistribute land to peasants and only empowered large agribusinesses.
+                    The Comprehensive Agrarian Reform Program (CARP) was
+                    implemented, but the administration’s agrarian program
+                    failed to redistribute land to peasants and only empowered
+                    large agribusinesses.
                   </li>
                   <li>
-                  Aquino's administration prohibited workers from their right to strike, through the Herrera Bill.
+                    Aquino's administration prohibited workers from their right
+                    to strike, through the Herrera Bill.
                   </li>
                   <li>
-                  The administration declared a “Total War” policy to suppress peasant voices, which led to the Mendiola Massacre.
+                    The administration declared a “Total War” policy to suppress
+                    peasant voices, which led to the Mendiola Massacre.
                   </li>
                 </ol>
               </div>
@@ -216,13 +248,18 @@ const Presidents = () => {
                 <h2 className="pres-card-modal-h3">Pres. Fidel Ramos</h2>
                 <ol>
                   <li>
-                  Peasant-owned lands were privatized and commercialized, expanding business interests and worsening peasant landlessness through the Philippines 2000 program.
+                    Peasant-owned lands were privatized and commercialized,
+                    expanding business interests and worsening peasant
+                    landlessness through the Philippines 2000 program.
                   </li>
                   <li>
-                  The administration further encouraged export-oriented production of cheap goods and importation of expensive ones through joining the World Trade Organization.
+                    The administration further encouraged export-oriented
+                    production of cheap goods and importation of expensive ones
+                    through joining the World Trade Organization.
                   </li>
                   <li>
-                  Ramos' administration declared a war on the peasant Moros in the countryside.
+                    Ramos' administration declared a war on the peasant Moros in
+                    the countryside.
                   </li>
                 </ol>
               </div>
@@ -248,9 +285,12 @@ const Presidents = () => {
               <div className="pres-card-modal-p-container">
                 <h2 className="pres-card-modal-h3">Pres. Joseph Estrada</h2>
                 <ol>
-                  <li>Estrada did not have any programs for peasants at all.</li>
                   <li>
-                  Estrada declared an “All Out War” on Moros in the countryside.
+                    Estrada did not have any programs for peasants at all.
+                  </li>
+                  <li>
+                    Estrada declared an “All Out War” on Moros in the
+                    countryside.
                   </li>
                 </ol>
               </div>
@@ -277,14 +317,23 @@ const Presidents = () => {
                 <h2 className="pres-card-modal-h3">Pres. Gloria Arroyo</h2>
                 <ol>
                   <li>
-                  The national income for agriculture further declined because of excessive importation, causing millions of farmers to lose their livelihoods, forcing them to sell or mortgage their very little lands, and look for other jobs in cities. Worse, the products that were being imported could be produced in the Philippines – rice, vegetables, sugar, and fish.
+                    The national income for agriculture further declined because
+                    of excessive importation, causing millions of farmers to
+                    lose their livelihoods, forcing them to sell or mortgage
+                    their very little lands, and look for other jobs in cities.
+                    Worse, the products that were being imported could be
+                    produced in the Philippines – rice, vegetables, sugar, and
+                    fish.
                   </li>
                   <li>
                     Militarization and bombings in the countryside (i.e., Bangsa
                     Moro, Liguasan Marsh, Capiz).
                   </li>
                   <li>
-                  Arroyo's administration launched extrajudicial killings of members, leaders, and sympathizers of the peasantry, including priests, journalists, lawyers, doctors, students, and more, through Oplan Bantay Laya.
+                    Arroyo's administration launched extrajudicial killings of
+                    members, leaders, and sympathizers of the peasantry,
+                    including priests, journalists, lawyers, doctors, students,
+                    and more, through Oplan Bantay Laya.
                   </li>
                 </ol>
               </div>
@@ -311,16 +360,23 @@ const Presidents = () => {
                 <h2 className="pres-card-modal-h3">Pres. Benigno Aquino III</h2>
                 <ol>
                   <li>
-                  The Comprehensive Agrarian Reform Program Extension with Reforms (CARPER) was implemented, but the new agrarian reform that was passed only worsened rural poverty and landlessness.
+                    The Comprehensive Agrarian Reform Program Extension with
+                    Reforms (CARPER) was implemented, but the new agrarian
+                    reform that was passed only worsened rural poverty and
+                    landlessness.
                   </li>
                   <li>
-                  Aquino III's administration worsened the imperialist exploitation of the country’s natural resources through Public-Private Partnerships (PPP).
+                    Aquino III's administration worsened the imperialist
+                    exploitation of the country’s natural resources through
+                    Public-Private Partnerships (PPP).
                   </li>
                   <li>
-                  Counter-insurgency campaigns were reinforced that mainly affected those in the countryside through Oplan Bayanihan.
+                    Counter-insurgency campaigns were reinforced that mainly
+                    affected those in the countryside through Oplan Bayanihan.
                   </li>
                   <li>
-                  Thousands of farmers who were asking for agricultural support were shot by state forces in the Kidapawan massacre.
+                    Thousands of farmers who were asking for agricultural
+                    support were shot by state forces in the Kidapawan massacre.
                   </li>
                 </ol>
               </div>
@@ -347,7 +403,9 @@ const Presidents = () => {
                 <h2 className="pres-card-modal-h3">Pres. Rodrigo Duterte</h2>
                 <ol>
                   <li>
-                  Overprioritization of infrastructure projects led to trillions of debts and failure of distribution of government funds through Build! Build! Build!
+                    Overprioritization of infrastructure projects led to
+                    trillions of debts and failure of distribution of government
+                    funds through Build! Build! Build!
                   </li>
                   <li>
                     Increased taxes of basic commodities, burdening the masses

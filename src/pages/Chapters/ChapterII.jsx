@@ -2,66 +2,86 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Ch2Info from "../../shared/components/Partials/Ch2Info";
+import Header from "../../shared/components/Partials/Header";
+import PreColonial from "../../shared/components/Partials/PreColonial";
+import Spanish from "../../shared/components/Partials/SpGallery";
+import American from "../../shared/components/Partials/AmGallery";
+import Philippines from "../../shared/components/Partials/PhGallery";
+import Chapter2Nav from "../../shared/components/Partials/Ch2Nav";
 
 const ChapterIIPage = () => {
-  const [checked, setChecked] = useState(false);
-  const [hidden, setHidden] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  const modelRef = React.useRef();
+  const [showPreColonial, setShowPreColonial] = useState(false);
+  const [showSpanish, setShowSpanish] = useState(false);
+  const [showAmerican, setShowAmerican] = useState(false);
+  const [showPhilippines, setShowPhilippines] = useState(false);
+  const [showNav, setShowNav] = useState(true);
+
+  const handleBack = () => {
+    setShowPreColonial(false);
+    setShowSpanish(false);
+    setShowAmerican(false);
+    setShowPhilippines(false);
+    setShowNav(true);
+  };
+
+  const handleNavClick = () => {
+    setIsOpen(false);
+    setShowNav(false);
+  };
+
   return (
     <div className="chapter-container">
-      <div className="chapter-two-nav">
-        <div className="chii-text-wrapper">
-          <h1 className="page-header-title chii-text-wrapper">
-            chapter2
-            <sup>
-              <button className="about-ch" onClick={() => setIsOpen(true)}>
-                ?
-              </button>
-            </sup>
-          </h1>
-          <Ch2Info open={isOpen} onClose={() => setIsOpen(false)} />
-        </div>
+      <Header />
+      {showNav && (
+        <motion.div
+          className="chapter2-nav-container"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1}}
+          transition={{ duration: 0.5 }}
+        >
+          <Chapter2Nav
+            onShowPreColonial={() => {
+              setShowPreColonial(true);
+              handleNavClick();
+            }}
+            onShowSpanish={() => {
+              setShowSpanish(true);
+              handleNavClick();
+            }}
+            onShowAmerican={() => {
+              setShowAmerican(true);
+              handleNavClick();
+            }}
+            onShowPhilippines={() => {
+              setShowPhilippines(true);
+              handleNavClick();
+            }}
+            isOpen={isOpen}
+            setIsOpen={setIsOpen}
+          />
+        </motion.div>
+      )}
 
-        <div className="chapter-two-btn">
-          <Link
-            to="/chapters-directory/chapter-2/pre-colonial"
-            style={{ color: "white" }}
-          >
-            <button className="chapter-two-links">Pre-Colonial Period</button>
-          </Link>
+      {showPreColonial && (
+        <PreColonial onClose={() => setShowPreColonial(false)} />
+      )}
+
+      {showSpanish && <Spanish onClose={() => setShowSpanish(false)} />}
+
+      {showAmerican && <American onClose={() => setShowAmerican(false)} />}
+
+      {showPhilippines && (
+        <Philippines onClose={() => setShowPhilippines(false)} />
+      )}
+
+      {(showPreColonial || showSpanish || showAmerican || showPhilippines) && (
+        <div className="chapter-two-btn chapter-two-btn-container">
+          <button className="chapter-two-links back-btn" onClick={handleBack}>
+            Back
+          </button>
         </div>
-        <div className="chapter-two-btn">
-          <Link
-            to="/chapters-directory/chapter-2/spanish"
-            style={{ color: "white" }}
-          >
-            <button className="chapter-two-links">
-              Spanish Colonization Period
-            </button>
-          </Link>
-        </div>
-        <div className="chapter-two-btn">
-          <Link
-            to="/chapters-directory/chapter-2/american"
-            style={{ color: "white" }}
-          >
-            <button className="chapter-two-links">
-              American Colonization Period
-            </button>
-          </Link>
-        </div>
-        <div className="chapter-two-btn">
-          <Link
-            to="/chapters-directory/chapter-2/philippines"
-            style={{ color: "white" }}
-          >
-            <button className="chapter-two-links">
-              Present Philippine Republic
-            </button>
-          </Link>
-        </div>
-      </div>
+      )}
     </div>
   );
 };

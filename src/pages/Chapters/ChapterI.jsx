@@ -11,9 +11,11 @@ import HeadWoman1 from "../../assets/Head_Woman-1.png";
 import HeadMan1 from "../../assets/Head_Man-1.png";
 import HeadMan2 from "../../assets/Head_Man-2.png";
 import farmvid from "../../assets/vids/Chapter-1.webm";
+import Header from "../../shared/components/Partials/Header";
 
 const ChapterIPage = () => {
   const [isOpen1, setIsOpen1] = useState(false);
+
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +24,7 @@ const ChapterIPage = () => {
 
   return (
     <div className="farm-vid-container">
+      <Header/>
       <video
         muted
         autoPlay

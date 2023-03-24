@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import samplePres from "../../../assets/chii-sample-pres.png"
 import { Link } from "react-router-dom";
 import Ch2Info from "./Ch2Info";
+import Header from "./Header"
 
 const PreColonial2 = () => {
   const modelRef = React.useRef();
@@ -13,7 +14,8 @@ const PreColonial2 = () => {
 
 <div className="chapter-container"> {/* LABEL + ONCLICK */}
 
-<div className="dev-cards-list">
+
+<div className="dev-cards-list">    
 <div className="page-header-container">
         <h1 className="page-header-title">chapter2
         <sup>
@@ -24,7 +26,6 @@ const PreColonial2 = () => {
         <p className="page-header-subtitle">pre-colonial developments</p>
         <Ch2Info open={isOpen} onClose={() => setIsOpen(false)} />
     </div>
-    
     <label htmlFor="dev-card-checkbox-toggle-1" className="dev-1">
         <div className="dev-card-btn">
             <div className="dev-card-image">
@@ -100,29 +101,6 @@ const PreColonial2 = () => {
     </label>
 
     </div>
-
-
-
-
-      {/* Pagination */}
-      <div className="dev-carousel__nav">
-
-        <Link to="/chapters-directory/chapter-2/pre-colonial" className="dev-slider-nav">
-          1
-        </Link>
-
-        <Link to="/chapters-directory/chapter-2/pre-colonial/2" className="dev-slider-nav"
-          >
-          2
-        </Link>
-
-      </div>
-
-        <Link to="/chapters-directory/chapter-2" style={{ color: 'white' }}>
-		    <div className="chapter-two-btn chapter-two-btn-container">
-                <button className="chapter-two-links back-btn">Back</button>
-		    </div>
-        </Link>
 
     </div>
   );
