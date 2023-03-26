@@ -9,7 +9,7 @@ const About5Siglo = () => {
         Philippines.
       </p>
       <p>
-        Interesting in learning more about the peasantry? Go check out our
+        Interested in learning more about the peasantry? Go check out our
         animated explainer video below!
       </p>
       <iframe
