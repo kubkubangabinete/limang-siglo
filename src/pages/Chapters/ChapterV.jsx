@@ -90,7 +90,7 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
-                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
+                      <Environment background={false} files="/pillars_1k.hdr" />
                         <Land rotation={[30,0,0]}/>
                       </Suspense>
                       <OrbitControls />
@@ -130,7 +130,7 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
-                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
+                      <Environment background={false} files="/pillars_1k.hdr" />
                         <SignBoard />
                       </Suspense>
                       <OrbitControls />
@@ -169,7 +169,7 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
-                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
+                      <Environment background={false} files="/pillars_1k.hdr" />
                         <Shield />
                       </Suspense>
                       <OrbitControls />
@@ -208,7 +208,7 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
-                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
+                      <Environment background={false} files="/pillars_1k.hdr" />
                         <Benefits />
                       </Suspense>
                       <OrbitControls />
@@ -247,7 +247,7 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
-                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
+                      <Environment background={false} files="/pillars_1k.hdr" />
                       
                         <PiggyBank />
                       </Suspense>
@@ -287,7 +287,7 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
-                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
+                      <Environment background={false} files="/pillars_1k.hdr" />
                         <Gear />
                       </Suspense>
                       <OrbitControls />
@@ -328,7 +328,7 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
-                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
+                      <Environment background={false} files="/pillars_1k.hdr" />
                         <Factory />
                       </Suspense>
                       <OrbitControls />

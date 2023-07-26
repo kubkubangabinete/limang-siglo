@@ -51,7 +51,7 @@ const PreColonial1 = () => {
           >
             <Suspense fallback={null}>
               <RiceTerraces />
-              <Environment background={false} files="/src/assets/pillars_1k.hdr" />
+              <Environment background={false} files="/pillars_1k.hdr" />
             </Suspense>
             <OrbitControls />
           </Canvas>
