@@ -90,8 +90,8 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
+                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
                         <Land rotation={[30,0,0]}/>
-                        <Environment preset="sunset" />
                       </Suspense>
                       <OrbitControls />
                     </Canvas>
@@ -130,8 +130,8 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
+                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
                         <SignBoard />
-                        <Environment preset="sunset" />
                       </Suspense>
                       <OrbitControls />
                     </Canvas>
@@ -169,8 +169,8 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
+                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
                         <Shield />
-                        <Environment preset="sunset" />
                       </Suspense>
                       <OrbitControls />
                     </Canvas>
@@ -208,8 +208,8 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
+                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
                         <Benefits />
-                        <Environment preset="sunset" />
                       </Suspense>
                       <OrbitControls />
                     </Canvas>
@@ -247,8 +247,9 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
+                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
+                      
                         <PiggyBank />
-                        <Environment preset="sunset" />
                       </Suspense>
                       <OrbitControls />
                     </Canvas>
@@ -286,8 +287,8 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
+                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
                         <Gear />
-                        <Environment preset="sunset" />
                       </Suspense>
                       <OrbitControls />
                     </Canvas>
@@ -327,8 +328,8 @@ const ChapterVPage = () => {
                       }}
                     >
                       <Suspense fallback={null}>
+                      <Environment background={false} files="/src/assets/pillars_1k.hdr" />
                         <Factory />
-                        <Environment preset="sunset" />
                       </Suspense>
                       <OrbitControls />
                     </Canvas>
