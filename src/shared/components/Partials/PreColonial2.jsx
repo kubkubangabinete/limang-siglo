@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import samplePres from "../../../assets/chii-sample-pres.png"
+import samplePres from "../../../assets/chii-sample-pres.jpeg"
 import { Link } from "react-router-dom";
 import Ch2Info from "./Ch2Info";
 import Header from "./Header"

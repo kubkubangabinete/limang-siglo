@@ -7,7 +7,7 @@ import IconButton from "@mui/material/IconButton";
 import KeyboardDoubleArrowRightRoundedIcon from "@mui/icons-material/KeyboardDoubleArrowRightRounded";
 import { orange } from "@mui/material/colors";
 import { makeStyles } from "@material-ui/core/styles";
-import sample from "../../../assets/samplefarm.png";
+import sample from "../../../assets/samplefarm.jpeg";
 
 const useStyles = makeStyles({
   button: {

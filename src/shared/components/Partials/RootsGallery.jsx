@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import sampleSpanish from "../../../assets/chii-sample-america.png";
+import sampleSpanish from "../../../assets/chii-sample-america.jpeg";
 import Ch4Info from "./Ch4Info";
 import Header from "./Header";
 

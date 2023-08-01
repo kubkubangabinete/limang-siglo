@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import sampleLandscape from "../../../assets/chii-sample1.png";
+import sampleLandscape from "../../../assets/chii-sample1.jpeg";
 import Ch3Info from "./Ch3Info";
 
 const Plight = () => {
